@@ -1,0 +1,212 @@
+Merge + analysis job started on omni39
+Date: Sun May 31 19:51:43 CEST 2026
+Working directory: /scratch/s5470161/bscthesis
+Python: /scratch/s5470161/venvs/bscthesis_analysis/bin/python
+Python 3.11.3
+pandas 3.0.3
+======================================================================
+STEP 1: merging all scored manifests and trajectory CSVs
+======================================================================
+Merge complete.
+Manifest rows:       36600
+Trajectory rows:     36600
+Analysis input rows: 36600
+Quality columns:     ['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'hpsv2_version', 'clip_model', 'imagereward_model']
+Prompt groups:       {'n_prompt_groups': 7320, 'min': 5, 'max': 5, 'mean': 5.0, 'median': 5.0}
+Main analysis input: results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv
+Summary:             results/sd35_7320_5seeds_merged_quality/merge_summary.json
+======================================================================
+STEP 2: checking merged quality columns
+======================================================================
+Merged CSV: results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv
+Columns: 78
+Quality columns found: ['clip_score', 'hpsv2_score', 'imagereward_score', 'clip_model', 'hpsv2_version', 'imagereward_model', 'image_reward_score']
+Prompt columns found: ['prompt_group', 'prompt_id', 'prompt_id_original', 'prompt']
+======================================================================
+STEP 3: rich trajectory analysis for clip using clip_score
+======================================================================
+Loaded dataset: 36600 rows, 78 columns
+Deriving labels from selected quality target: clip_score
+Deriving rich sequence features...
+Deriving compact prefix features from the first 5 steps...
+Building training-free rich health score...
+Trajectory feature set: compact-prefix
+Trajectory feature count: 45
+Running trajectory-only logistic regression baseline...
+Running hand-written ROC-by-timestep analysis...
+Running supervised compact-prefix ROC-by-timestep analysis...
+Running abort simulation for training-free health score...
+Running abort simulation for learned health score...
+Done.
+                                model  n_features  roc_auc   pr_auc       n  n_splits
+            training_free_rich_health           1 0.596363 0.575179     NaN       NaN
+trajectory_logreg_supervised_baseline          45 0.643440 0.622128 36600.0       5.0
+Saved outputs to: results/rich_analysis_7320_5seeds_clip_prefix5
+======================================================================
+STEP 4: prompt-controlled analysis for clip
+======================================================================
+Prompt-controlled analysis complete.
+Rows: 36600 | prompts: 7320 | rows/prompt: 5-5
+
+Grouped logistic regression:
+    n  n_features  n_groups  n_splits  roc_auc   pr_auc
+36600          51      7320         5 0.643746 0.622557
+
+Within-prompt pairwise ranking:
+                          score_col  usable_pairs  concordant_pairs  discordant_pairs  score_ties  quality_ties  pairwise_accuracy
+                 health_score_0_100         73200             35385             37815           0             0           0.483402
+group_cv_learned_health_score_0_100         73200             36285             36915           0             0           0.495697
+
+Best-of-prompt selection:
+                          score_col  n_prompts  mean_selected_quality  mean_random_expected_quality  mean_oracle_best_quality  lift_vs_random  fraction_of_oracle_gain
+                 health_score_0_100       7320              37.695531                     37.801604                 40.103813       -0.106073                -0.046074
+group_cv_learned_health_score_0_100       7320              37.772309                     37.801604                 40.103813       -0.029295                -0.012725
+
+Saved outputs to: results/prompt_controlled_7320_5seeds_clip_prefix5
+Finished target clip
+Rich output:              results/rich_analysis_7320_5seeds_clip_prefix5
+Prompt-controlled output: results/prompt_controlled_7320_5seeds_clip_prefix5
+======================================================================
+STEP 3: rich trajectory analysis for hpsv2 using hpsv2_score
+======================================================================
+Loaded dataset: 36600 rows, 78 columns
+Deriving labels from selected quality target: hpsv2_score
+Deriving rich sequence features...
+Deriving compact prefix features from the first 5 steps...
+Building training-free rich health score...
+Trajectory feature set: compact-prefix
+Trajectory feature count: 45
+Running trajectory-only logistic regression baseline...
+Running hand-written ROC-by-timestep analysis...
+Running supervised compact-prefix ROC-by-timestep analysis...
+Running abort simulation for training-free health score...
+Running abort simulation for learned health score...
+Done.
+                                model  n_features  roc_auc   pr_auc       n  n_splits
+            training_free_rich_health           1 0.593366 0.576266     NaN       NaN
+trajectory_logreg_supervised_baseline          45 0.763965 0.750652 36600.0       5.0
+Saved outputs to: results/rich_analysis_7320_5seeds_hpsv2_prefix5
+======================================================================
+STEP 4: prompt-controlled analysis for hpsv2
+======================================================================
+Prompt-controlled analysis complete.
+Rows: 36600 | prompts: 7320 | rows/prompt: 5-5
+
+Grouped logistic regression:
+    n  n_features  n_groups  n_splits  roc_auc   pr_auc
+36600          51      7320         5 0.764079 0.750336
+
+Within-prompt pairwise ranking:
+                          score_col  usable_pairs  concordant_pairs  discordant_pairs  score_ties  quality_ties  pairwise_accuracy
+                 health_score_0_100         72868             33659             39209           0           332           0.461917
+group_cv_learned_health_score_0_100         72868             43074             29794           0           332           0.591124
+
+Best-of-prompt selection:
+                          score_col  n_prompts  mean_selected_quality  mean_random_expected_quality  mean_oracle_best_quality  lift_vs_random  fraction_of_oracle_gain
+                 health_score_0_100       7320               0.306279                      0.308996                  0.327244       -0.002717                -0.148891
+group_cv_learned_health_score_0_100       7320               0.314312                      0.308996                  0.327244        0.005317                 0.291347
+
+Saved outputs to: results/prompt_controlled_7320_5seeds_hpsv2_prefix5
+Finished target hpsv2
+Rich output:              results/rich_analysis_7320_5seeds_hpsv2_prefix5
+Prompt-controlled output: results/prompt_controlled_7320_5seeds_hpsv2_prefix5
+======================================================================
+STEP 3: rich trajectory analysis for imagereward using imagereward_score
+======================================================================
+Loaded dataset: 36600 rows, 78 columns
+Deriving labels from selected quality target: imagereward_score
+Deriving rich sequence features...
+Deriving compact prefix features from the first 5 steps...
+Building training-free rich health score...
+Trajectory feature set: compact-prefix
+Trajectory feature count: 45
+Running trajectory-only logistic regression baseline...
+Running hand-written ROC-by-timestep analysis...
+Running supervised compact-prefix ROC-by-timestep analysis...
+Running abort simulation for training-free health score...
+Running abort simulation for learned health score...
+Done.
+                                model  n_features  roc_auc   pr_auc       n  n_splits
+            training_free_rich_health           1 0.582753 0.562043     NaN       NaN
+trajectory_logreg_supervised_baseline          45 0.671796 0.647310 36600.0       5.0
+Saved outputs to: results/rich_analysis_7320_5seeds_imagereward_prefix5
+======================================================================
+STEP 4: prompt-controlled analysis for imagereward
+======================================================================
+Prompt-controlled analysis complete.
+Rows: 36600 | prompts: 7320 | rows/prompt: 5-5
+
+Grouped logistic regression:
+    n  n_features  n_groups  n_splits  roc_auc   pr_auc
+36600          51      7320         5 0.671329 0.646733
+
+Within-prompt pairwise ranking:
+                          score_col  usable_pairs  concordant_pairs  discordant_pairs  score_ties  quality_ties  pairwise_accuracy
+                 health_score_0_100         73200             34974             38226           0             0           0.477787
+group_cv_learned_health_score_0_100         73200             38826             34374           0             0           0.530410
+
+Best-of-prompt selection:
+                          score_col  n_prompts  mean_selected_quality  mean_random_expected_quality  mean_oracle_best_quality  lift_vs_random  fraction_of_oracle_gain
+                 health_score_0_100       7320               1.122060                      1.145832                  1.438205       -0.023772                -0.081307
+group_cv_learned_health_score_0_100       7320               1.177448                      1.145832                  1.438205        0.031617                 0.108138
+
+Saved outputs to: results/prompt_controlled_7320_5seeds_imagereward_prefix5
+Finished target imagereward
+Rich output:              results/rich_analysis_7320_5seeds_imagereward_prefix5
+Prompt-controlled output: results/prompt_controlled_7320_5seeds_imagereward_prefix5
+======================================================================
+FINAL OUTPUTS
+======================================================================
+Merged input used for rich analysis:
+  results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv
+Checking row counts...
+results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv: rows=36600, cols_read=['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'prompt_group']
+results/rich_analysis_7320_5seeds_clip_prefix5/rich_merged_dataset.csv: rows=36600, cols_read=['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'prompt_group', 'good_label', 'health_score_0_100']
+results/rich_analysis_7320_5seeds_hpsv2_prefix5/rich_merged_dataset.csv: rows=36600, cols_read=['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'prompt_group', 'good_label', 'health_score_0_100']
+results/rich_analysis_7320_5seeds_imagereward_prefix5/rich_merged_dataset.csv: rows=36600, cols_read=['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'prompt_group', 'good_label', 'health_score_0_100']
+Merge + analysis job completed at Sun May 31 23:31:45 CEST 2026
+
+###############################################################################
+Hábrók Cluster
+Job 29141317 for user s5470161
+Finished at: Sun May 31 23:31:49 CEST 2026
+
+Job details:
+============
+
+Job ID                         : 29141317
+Name                           : merge_analyze_7320_quality
+User                           : s5470161
+Partition                      : regularshort
+Nodes                          : omni39
+Number of Nodes                : 1
+Cores                          : 8
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2026-05-31T19:51:41
+Start                          : 2026-05-31T19:51:42
+End                            : 2026-05-31T23:31:45
+Reserved walltime              : 08:00:00
+Used walltime                  : 03:40:03
+Used CPU time                  : 21:58:49 (Efficiency: 74.92%)
+% User (Computation)           : 99.92%
+% System (I/O)                 :  0.07%
+Total memory reserved          : 64G
+Maximum memory used            : 2.51G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ 2) You requested much more CPU memory than your program used.
+    Please reduce the requested amount of memory.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

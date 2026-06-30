@@ -1,0 +1,64 @@
+Merge + analysis job started on omni25
+Date: Sun May 31 19:42:05 CEST 2026
+Working directory: /scratch/s5470161/bscthesis
+Python: /home2/s5470161/venvs/bscthesis/bin/python
+Python 3.11.3
+pandas 3.0.2
+======================================================================
+STEP 1: merging all scored manifests and trajectory CSVs
+======================================================================
+Merge complete.
+Manifest rows:       36600
+Trajectory rows:     36600
+Analysis input rows: 36600
+Quality columns:     ['clip_score', 'hpsv2_score', 'imagereward_score', 'image_reward_score', 'hpsv2_version', 'clip_model', 'imagereward_model']
+Prompt groups:       {'n_prompt_groups': 7320, 'min': 5, 'max': 5, 'mean': 5.0, 'median': 5.0}
+Main analysis input: results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv
+Summary:             results/sd35_7320_5seeds_merged_quality/merge_summary.json
+======================================================================
+STEP 2: checking merged quality columns
+======================================================================
+Merged CSV: results/sd35_7320_5seeds_merged_quality/analysis_input_all_quality.csv
+Columns: 78
+Quality columns found: ['clip_score', 'hpsv2_score', 'imagereward_score', 'clip_model', 'hpsv2_version', 'imagereward_model', 'image_reward_score']
+Prompt columns found: ['prompt_group', 'prompt_id', 'prompt_id_original', 'prompt']
+======================================================================
+STEP 3: rich trajectory analysis for clip using clip_score
+======================================================================
+
+###############################################################################
+Hábrók Cluster
+Job 29141287 for user s5470161
+Finished at: Sun May 31 19:42:43 CEST 2026
+
+Job details:
+============
+
+Job ID                         : 29141287
+Name                           : merge_analyze_7320_quality
+User                           : s5470161
+Partition                      : regularshort
+Nodes                          : omni25
+Number of Nodes                : 1
+Cores                          : 8
+Number of Tasks                : 1
+State                          : FAILED  
+Submit                         : 2026-05-31T19:39:51
+Start                          : 2026-05-31T19:42:04
+End                            : 2026-05-31T19:42:39
+Reserved walltime              : 08:00:00
+Used walltime                  : 00:00:35
+Used CPU time                  : 00:00:28 (Efficiency:  9.93%)
+% User (Computation)           : 87.98%
+% System (I/O)                 : 12.02%
+Total memory reserved          : 64G
+Maximum memory used            : 1.96G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

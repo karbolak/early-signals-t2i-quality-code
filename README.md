@@ -15,7 +15,7 @@ This is not intended to be a polished Python package. It is an implementation an
 
 This repository contains the implementation code and experiment artifacts used in the thesis.
 
-The reusable implementation of the early-abort filtering framework is available as the separate package **[DiffGate](https://github.com/<karbolak>/DiffGate)**.
+The reusable implementation of the early-abort filtering framework is available as the separate package **[DiffGate](https://github.com/karbolak/DiffGate)**.
 
 ## Repository map
 

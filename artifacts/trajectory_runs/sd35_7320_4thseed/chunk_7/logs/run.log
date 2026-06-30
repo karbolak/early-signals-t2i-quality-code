@@ -1,0 +1,976 @@
+2026-05-26 20:53:12,638 | INFO | Starting rich SD3.5 trajectory batch run
+2026-05-26 20:53:12,639 | INFO | HF_HOME=/scratch/s5470161/huggingface
+2026-05-26 20:53:12,640 | INFO | HF_HUB_DISABLE_XET=1
+2026-05-26 20:53:12,640 | INFO | CUDA available: True
+2026-05-26 20:53:12,668 | INFO | GPU: NVIDIA A100-PCIE-40GB
+2026-05-26 20:53:12,705 | INFO | Loaded 320 selected prompts from data/final_generation_prompts.csv
+2026-05-26 20:53:12,705 | INFO | CSV slice: start_index=7000 end_index=8000
+2026-05-26 20:53:12,705 | INFO | Seeds per prompt in this run: 1
+2026-05-26 20:53:12,705 | INFO | Replicate start: 3
+2026-05-26 20:53:12,705 | INFO | Expected prompt-seed generations: 320
+2026-05-26 20:53:12,705 | INFO | Found 0 completed runs to skip
+2026-05-26 20:53:12,705 | INFO | Max generations for this run: 320
+2026-05-26 20:53:12,705 | INFO | Loading pipeline...
+2026-05-26 21:02:03,152 | INFO | Pipeline loaded in 530.45 seconds
+2026-05-26 21:02:03,153 | INFO | Memory after pipeline load | host_rss=4.42 GB | gpu_alloc=27.98 GB
+2026-05-26 21:02:03,155 | INFO | Running prompt_id=p7001 split=bottom seed=7012348
+2026-05-26 21:02:17,968 | INFO | Memory after prompt_id=p7001 seed=7012348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:02:17,968 | INFO | Done prompt_id=p7001 seed=7012348 runtime=14.32s generated=1 cfg_div_mean=0.054048 consistency=0.004953
+2026-05-26 21:02:18,129 | INFO | Running prompt_id=p7002 split=bottom seed=7013348
+2026-05-26 21:02:33,037 | INFO | Memory after prompt_id=p7002 seed=7013348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:02:33,037 | INFO | Done prompt_id=p7002 seed=7013348 runtime=14.49s generated=2 cfg_div_mean=0.082608 consistency=0.004614
+2026-05-26 21:02:33,193 | INFO | Running prompt_id=p7003 split=bottom seed=7014348
+2026-05-26 21:02:47,894 | INFO | Memory after prompt_id=p7003 seed=7014348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:02:47,894 | INFO | Done prompt_id=p7003 seed=7014348 runtime=14.24s generated=3 cfg_div_mean=0.078741 consistency=0.004413
+2026-05-26 21:02:48,054 | INFO | Running prompt_id=p7004 split=bottom seed=7015348
+2026-05-26 21:03:02,989 | INFO | Memory after prompt_id=p7004 seed=7015348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:03:02,989 | INFO | Done prompt_id=p7004 seed=7015348 runtime=14.58s generated=4 cfg_div_mean=0.059617 consistency=0.004650
+2026-05-26 21:03:03,130 | INFO | Running prompt_id=p7005 split=bottom seed=7016348
+2026-05-26 21:03:17,743 | INFO | Memory after prompt_id=p7005 seed=7016348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:03:17,743 | INFO | Done prompt_id=p7005 seed=7016348 runtime=14.23s generated=5 cfg_div_mean=0.117898 consistency=0.004192
+2026-05-26 21:03:17,874 | INFO | Running prompt_id=p7006 split=bottom seed=7017348
+2026-05-26 21:03:32,759 | INFO | Memory after prompt_id=p7006 seed=7017348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:03:32,759 | INFO | Done prompt_id=p7006 seed=7017348 runtime=14.51s generated=6 cfg_div_mean=0.054915 consistency=0.004896
+2026-05-26 21:03:32,872 | INFO | Running prompt_id=p7007 split=bottom seed=7018348
+2026-05-26 21:03:47,584 | INFO | Memory after prompt_id=p7007 seed=7018348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:03:47,584 | INFO | Done prompt_id=p7007 seed=7018348 runtime=14.32s generated=7 cfg_div_mean=0.080800 consistency=0.004530
+2026-05-26 21:03:47,740 | INFO | Running prompt_id=p7008 split=bottom seed=7019348
+2026-05-26 21:04:02,552 | INFO | Memory after prompt_id=p7008 seed=7019348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:04:02,552 | INFO | Done prompt_id=p7008 seed=7019348 runtime=14.34s generated=8 cfg_div_mean=0.070297 consistency=0.004565
+2026-05-26 21:04:02,666 | INFO | Running prompt_id=p7009 split=bottom seed=7020348
+2026-05-26 21:04:17,263 | INFO | Memory after prompt_id=p7009 seed=7020348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:04:17,263 | INFO | Done prompt_id=p7009 seed=7020348 runtime=14.36s generated=9 cfg_div_mean=0.063516 consistency=0.004458
+2026-05-26 21:04:17,406 | INFO | Running prompt_id=p7010 split=bottom seed=7021348
+2026-05-26 21:04:32,469 | INFO | Memory after prompt_id=p7010 seed=7021348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:04:32,469 | INFO | Done prompt_id=p7010 seed=7021348 runtime=14.67s generated=10 cfg_div_mean=0.073891 consistency=0.004697
+2026-05-26 21:04:32,602 | INFO | Running prompt_id=p7011 split=bottom seed=7022348
+2026-05-26 21:04:47,365 | INFO | Memory after prompt_id=p7011 seed=7022348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:04:47,365 | INFO | Done prompt_id=p7011 seed=7022348 runtime=14.46s generated=11 cfg_div_mean=0.068798 consistency=0.004516
+2026-05-26 21:04:47,481 | INFO | Running prompt_id=p7012 split=bottom seed=7023348
+2026-05-26 21:05:02,340 | INFO | Memory after prompt_id=p7012 seed=7023348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:05:02,340 | INFO | Done prompt_id=p7012 seed=7023348 runtime=14.57s generated=12 cfg_div_mean=0.072961 consistency=0.004439
+2026-05-26 21:05:02,485 | INFO | Running prompt_id=p7013 split=bottom seed=7024348
+2026-05-26 21:05:17,248 | INFO | Memory after prompt_id=p7013 seed=7024348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:05:17,248 | INFO | Done prompt_id=p7013 seed=7024348 runtime=14.41s generated=13 cfg_div_mean=0.048523 consistency=0.004926
+2026-05-26 21:05:17,379 | INFO | Running prompt_id=p7014 split=bottom seed=7025348
+2026-05-26 21:05:32,621 | INFO | Memory after prompt_id=p7014 seed=7025348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:05:32,621 | INFO | Done prompt_id=p7014 seed=7025348 runtime=14.67s generated=14 cfg_div_mean=0.070358 consistency=0.004530
+2026-05-26 21:05:32,733 | INFO | Running prompt_id=p7015 split=bottom seed=7026348
+2026-05-26 21:05:47,558 | INFO | Memory after prompt_id=p7015 seed=7026348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:05:47,559 | INFO | Done prompt_id=p7015 seed=7026348 runtime=14.45s generated=15 cfg_div_mean=0.079786 consistency=0.004703
+2026-05-26 21:05:47,700 | INFO | Running prompt_id=p7016 split=bottom seed=7027348
+2026-05-26 21:06:02,991 | INFO | Memory after prompt_id=p7016 seed=7027348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:06:02,991 | INFO | Done prompt_id=p7016 seed=7027348 runtime=14.86s generated=16 cfg_div_mean=0.064260 consistency=0.004698
+2026-05-26 21:06:03,132 | INFO | Running prompt_id=p7017 split=bottom seed=7028348
+2026-05-26 21:06:17,888 | INFO | Memory after prompt_id=p7017 seed=7028348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:06:17,888 | INFO | Done prompt_id=p7017 seed=7028348 runtime=14.46s generated=17 cfg_div_mean=0.072502 consistency=0.004903
+2026-05-26 21:06:18,004 | INFO | Running prompt_id=p7018 split=bottom seed=7029348
+2026-05-26 21:06:33,032 | INFO | Memory after prompt_id=p7018 seed=7029348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:06:33,033 | INFO | Done prompt_id=p7018 seed=7029348 runtime=14.49s generated=18 cfg_div_mean=0.078125 consistency=0.004594
+2026-05-26 21:06:33,177 | INFO | Running prompt_id=p7019 split=bottom seed=7030348
+2026-05-26 21:06:48,083 | INFO | Memory after prompt_id=p7019 seed=7030348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:06:48,084 | INFO | Done prompt_id=p7019 seed=7030348 runtime=14.48s generated=19 cfg_div_mean=0.067456 consistency=0.004495
+2026-05-26 21:06:48,214 | INFO | Running prompt_id=p7020 split=bottom seed=7031348
+2026-05-26 21:07:03,114 | INFO | Memory after prompt_id=p7020 seed=7031348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:07:03,115 | INFO | Done prompt_id=p7020 seed=7031348 runtime=14.46s generated=20 cfg_div_mean=0.087516 consistency=0.004355
+2026-05-26 21:07:03,230 | INFO | Running prompt_id=p7021 split=bottom seed=7032348
+2026-05-26 21:07:18,049 | INFO | Memory after prompt_id=p7021 seed=7032348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:07:18,049 | INFO | Done prompt_id=p7021 seed=7032348 runtime=14.47s generated=21 cfg_div_mean=0.071766 consistency=0.004380
+2026-05-26 21:07:18,210 | INFO | Running prompt_id=p7022 split=bottom seed=7033348
+2026-05-26 21:07:33,348 | INFO | Memory after prompt_id=p7022 seed=7033348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:07:33,348 | INFO | Done prompt_id=p7022 seed=7033348 runtime=14.75s generated=22 cfg_div_mean=0.065398 consistency=0.004559
+2026-05-26 21:07:33,461 | INFO | Running prompt_id=p7023 split=bottom seed=7034348
+2026-05-26 21:07:48,416 | INFO | Memory after prompt_id=p7023 seed=7034348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:07:48,416 | INFO | Done prompt_id=p7023 seed=7034348 runtime=14.60s generated=23 cfg_div_mean=0.064748 consistency=0.004434
+2026-05-26 21:07:48,530 | INFO | Running prompt_id=p7024 split=bottom seed=7035348
+2026-05-26 21:08:03,390 | INFO | Memory after prompt_id=p7024 seed=7035348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:08:03,390 | INFO | Done prompt_id=p7024 seed=7035348 runtime=14.45s generated=24 cfg_div_mean=0.093377 consistency=0.004252
+2026-05-26 21:08:03,550 | INFO | Running prompt_id=p7025 split=bottom seed=7036348
+2026-05-26 21:08:18,487 | INFO | Memory after prompt_id=p7025 seed=7036348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:08:18,487 | INFO | Done prompt_id=p7025 seed=7036348 runtime=14.47s generated=25 cfg_div_mean=0.091550 consistency=0.004374
+2026-05-26 21:08:18,601 | INFO | Running prompt_id=p7026 split=bottom seed=7037348
+2026-05-26 21:08:33,370 | INFO | Memory after prompt_id=p7026 seed=7037348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:08:33,370 | INFO | Done prompt_id=p7026 seed=7037348 runtime=14.40s generated=26 cfg_div_mean=0.052973 consistency=0.004167
+2026-05-26 21:08:33,484 | INFO | Running prompt_id=p7027 split=bottom seed=7038348
+2026-05-26 21:08:48,657 | INFO | Memory after prompt_id=p7027 seed=7038348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:08:48,657 | INFO | Done prompt_id=p7027 seed=7038348 runtime=14.68s generated=27 cfg_div_mean=0.073290 consistency=0.004662
+2026-05-26 21:08:48,816 | INFO | Running prompt_id=p7028 split=bottom seed=7039348
+2026-05-26 21:09:03,761 | INFO | Memory after prompt_id=p7028 seed=7039348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:09:03,762 | INFO | Done prompt_id=p7028 seed=7039348 runtime=14.40s generated=28 cfg_div_mean=0.064950 consistency=0.004506
+2026-05-26 21:09:03,877 | INFO | Running prompt_id=p7029 split=bottom seed=7040348
+2026-05-26 21:09:18,811 | INFO | Memory after prompt_id=p7029 seed=7040348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:09:18,812 | INFO | Done prompt_id=p7029 seed=7040348 runtime=14.43s generated=29 cfg_div_mean=0.095536 consistency=0.004399
+2026-05-26 21:09:18,925 | INFO | Running prompt_id=p7030 split=bottom seed=7041348
+2026-05-26 21:09:33,958 | INFO | Memory after prompt_id=p7030 seed=7041348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:09:33,958 | INFO | Done prompt_id=p7030 seed=7041348 runtime=14.58s generated=30 cfg_div_mean=0.069852 consistency=0.004594
+2026-05-26 21:09:34,118 | INFO | Running prompt_id=p7031 split=bottom seed=7042348
+2026-05-26 21:09:49,210 | INFO | Memory after prompt_id=p7031 seed=7042348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:09:49,211 | INFO | Done prompt_id=p7031 seed=7042348 runtime=14.68s generated=31 cfg_div_mean=0.113328 consistency=0.004101
+2026-05-26 21:09:49,327 | INFO | Running prompt_id=p7032 split=bottom seed=7043348
+2026-05-26 21:10:04,379 | INFO | Memory after prompt_id=p7032 seed=7043348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:10:04,379 | INFO | Done prompt_id=p7032 seed=7043348 runtime=14.66s generated=32 cfg_div_mean=0.068865 consistency=0.004875
+2026-05-26 21:10:04,497 | INFO | Running prompt_id=p7033 split=bottom seed=7044348
+2026-05-26 21:10:19,184 | INFO | Memory after prompt_id=p7033 seed=7044348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:10:19,184 | INFO | Done prompt_id=p7033 seed=7044348 runtime=14.42s generated=33 cfg_div_mean=0.087332 consistency=0.004085
+2026-05-26 21:10:19,341 | INFO | Running prompt_id=p7034 split=bottom seed=7045348
+2026-05-26 21:10:34,087 | INFO | Memory after prompt_id=p7034 seed=7045348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:10:34,088 | INFO | Done prompt_id=p7034 seed=7045348 runtime=14.41s generated=34 cfg_div_mean=0.092998 consistency=0.004261
+2026-05-26 21:10:34,200 | INFO | Running prompt_id=p7035 split=bottom seed=7046348
+2026-05-26 21:10:49,523 | INFO | Memory after prompt_id=p7035 seed=7046348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:10:49,523 | INFO | Done prompt_id=p7035 seed=7046348 runtime=14.79s generated=35 cfg_div_mean=0.067054 consistency=0.004547
+2026-05-26 21:10:49,639 | INFO | Running prompt_id=p7036 split=bottom seed=7047348
+2026-05-26 21:11:04,520 | INFO | Memory after prompt_id=p7036 seed=7047348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:11:04,520 | INFO | Done prompt_id=p7036 seed=7047348 runtime=14.73s generated=36 cfg_div_mean=0.051524 consistency=0.004376
+2026-05-26 21:11:04,676 | INFO | Running prompt_id=p7037 split=bottom seed=7048348
+2026-05-26 21:11:19,623 | INFO | Memory after prompt_id=p7037 seed=7048348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:11:19,623 | INFO | Done prompt_id=p7037 seed=7048348 runtime=14.41s generated=37 cfg_div_mean=0.065361 consistency=0.004671
+2026-05-26 21:11:19,749 | INFO | Running prompt_id=p7038 split=bottom seed=7049348
+2026-05-26 21:11:34,546 | INFO | Memory after prompt_id=p7038 seed=7049348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:11:34,546 | INFO | Done prompt_id=p7038 seed=7049348 runtime=14.41s generated=38 cfg_div_mean=0.085708 consistency=0.004509
+2026-05-26 21:11:34,659 | INFO | Running prompt_id=p7039 split=bottom seed=7050348
+2026-05-26 21:11:49,642 | INFO | Memory after prompt_id=p7039 seed=7050348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:11:49,642 | INFO | Done prompt_id=p7039 seed=7050348 runtime=14.54s generated=39 cfg_div_mean=0.074974 consistency=0.004397
+2026-05-26 21:11:49,799 | INFO | Running prompt_id=p7040 split=bottom seed=7051348
+2026-05-26 21:12:04,518 | INFO | Memory after prompt_id=p7040 seed=7051348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:12:04,518 | INFO | Done prompt_id=p7040 seed=7051348 runtime=14.42s generated=40 cfg_div_mean=0.072664 consistency=0.004744
+2026-05-26 21:12:04,631 | INFO | Running prompt_id=p7041 split=bottom seed=7052348
+2026-05-26 21:12:19,474 | INFO | Memory after prompt_id=p7041 seed=7052348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:12:19,474 | INFO | Done prompt_id=p7041 seed=7052348 runtime=14.42s generated=41 cfg_div_mean=0.067913 consistency=0.004584
+2026-05-26 21:12:19,587 | INFO | Running prompt_id=p7042 split=bottom seed=7053348
+2026-05-26 21:12:34,586 | INFO | Memory after prompt_id=p7042 seed=7053348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:12:34,586 | INFO | Done prompt_id=p7042 seed=7053348 runtime=14.78s generated=42 cfg_div_mean=0.080668 consistency=0.004175
+2026-05-26 21:12:34,743 | INFO | Running prompt_id=p7043 split=bottom seed=7054348
+2026-05-26 21:12:49,604 | INFO | Memory after prompt_id=p7043 seed=7054348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:12:49,604 | INFO | Done prompt_id=p7043 seed=7054348 runtime=14.42s generated=43 cfg_div_mean=0.068270 consistency=0.004435
+2026-05-26 21:12:49,717 | INFO | Running prompt_id=p7044 split=bottom seed=7055348
+2026-05-26 21:13:04,540 | INFO | Memory after prompt_id=p7044 seed=7055348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:13:04,540 | INFO | Done prompt_id=p7044 seed=7055348 runtime=14.47s generated=44 cfg_div_mean=0.091740 consistency=0.004268
+2026-05-26 21:13:04,655 | INFO | Running prompt_id=p7045 split=bottom seed=7056348
+2026-05-26 21:13:19,547 | INFO | Memory after prompt_id=p7045 seed=7056348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:13:19,547 | INFO | Done prompt_id=p7045 seed=7056348 runtime=14.41s generated=45 cfg_div_mean=0.082276 consistency=0.004668
+2026-05-26 21:13:19,702 | INFO | Running prompt_id=p7046 split=bottom seed=7057348
+2026-05-26 21:13:34,620 | INFO | Memory after prompt_id=p7046 seed=7057348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:13:34,620 | INFO | Done prompt_id=p7046 seed=7057348 runtime=14.46s generated=46 cfg_div_mean=0.091217 consistency=0.004310
+2026-05-26 21:13:34,736 | INFO | Running prompt_id=p7047 split=bottom seed=7058348
+2026-05-26 21:13:49,615 | INFO | Memory after prompt_id=p7047 seed=7058348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:13:49,615 | INFO | Done prompt_id=p7047 seed=7058348 runtime=14.43s generated=47 cfg_div_mean=0.081629 consistency=0.004454
+2026-05-26 21:13:49,733 | INFO | Running prompt_id=p7048 split=bottom seed=7059348
+2026-05-26 21:14:04,521 | INFO | Memory after prompt_id=p7048 seed=7059348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:14:04,521 | INFO | Done prompt_id=p7048 seed=7059348 runtime=14.42s generated=48 cfg_div_mean=0.089723 consistency=0.004282
+2026-05-26 21:14:04,680 | INFO | Running prompt_id=p7049 split=bottom seed=7060348
+2026-05-26 21:14:19,493 | INFO | Memory after prompt_id=p7049 seed=7060348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:14:19,493 | INFO | Done prompt_id=p7049 seed=7060348 runtime=14.39s generated=49 cfg_div_mean=0.074472 consistency=0.004240
+2026-05-26 21:14:19,608 | INFO | Running prompt_id=p7050 split=bottom seed=7061348
+2026-05-26 21:14:34,482 | INFO | Memory after prompt_id=p7050 seed=7061348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:14:34,482 | INFO | Done prompt_id=p7050 seed=7061348 runtime=14.48s generated=50 cfg_div_mean=0.081885 consistency=0.004255
+2026-05-26 21:14:34,598 | INFO | Running prompt_id=p7051 split=bottom seed=7062348
+2026-05-26 21:14:49,573 | INFO | Memory after prompt_id=p7051 seed=7062348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:14:49,574 | INFO | Done prompt_id=p7051 seed=7062348 runtime=14.46s generated=51 cfg_div_mean=0.064124 consistency=0.004308
+2026-05-26 21:14:49,733 | INFO | Running prompt_id=p7052 split=bottom seed=7063348
+2026-05-26 21:15:04,838 | INFO | Memory after prompt_id=p7052 seed=7063348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:15:04,838 | INFO | Done prompt_id=p7052 seed=7063348 runtime=14.58s generated=52 cfg_div_mean=0.071691 consistency=0.004340
+2026-05-26 21:15:04,972 | INFO | Running prompt_id=p7053 split=bottom seed=7064348
+2026-05-26 21:15:19,686 | INFO | Memory after prompt_id=p7053 seed=7064348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:15:19,686 | INFO | Done prompt_id=p7053 seed=7064348 runtime=14.45s generated=53 cfg_div_mean=0.094555 consistency=0.004678
+2026-05-26 21:15:19,800 | INFO | Running prompt_id=p7054 split=bottom seed=7065348
+2026-05-26 21:15:34,532 | INFO | Memory after prompt_id=p7054 seed=7065348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:15:34,532 | INFO | Done prompt_id=p7054 seed=7065348 runtime=14.42s generated=54 cfg_div_mean=0.095888 consistency=0.004389
+2026-05-26 21:15:34,689 | INFO | Running prompt_id=p7055 split=bottom seed=7066348
+2026-05-26 21:15:49,344 | INFO | Memory after prompt_id=p7055 seed=7066348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:15:49,345 | INFO | Done prompt_id=p7055 seed=7066348 runtime=14.39s generated=55 cfg_div_mean=0.106944 consistency=0.004046
+2026-05-26 21:15:49,462 | INFO | Running prompt_id=p7056 split=bottom seed=7067348
+2026-05-26 21:16:04,519 | INFO | Memory after prompt_id=p7056 seed=7067348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:16:04,519 | INFO | Done prompt_id=p7056 seed=7067348 runtime=14.64s generated=56 cfg_div_mean=0.102662 consistency=0.004058
+2026-05-26 21:16:04,633 | INFO | Running prompt_id=p7057 split=bottom seed=7068348
+2026-05-26 21:16:19,407 | INFO | Memory after prompt_id=p7057 seed=7068348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:16:19,407 | INFO | Done prompt_id=p7057 seed=7068348 runtime=14.42s generated=57 cfg_div_mean=0.093049 consistency=0.004248
+2026-05-26 21:16:19,564 | INFO | Running prompt_id=p7058 split=bottom seed=7069348
+2026-05-26 21:16:34,578 | INFO | Memory after prompt_id=p7058 seed=7069348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:16:34,578 | INFO | Done prompt_id=p7058 seed=7069348 runtime=14.53s generated=58 cfg_div_mean=0.084760 consistency=0.004305
+2026-05-26 21:16:34,692 | INFO | Running prompt_id=p7059 split=bottom seed=7070348
+2026-05-26 21:16:49,854 | INFO | Memory after prompt_id=p7059 seed=7070348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:16:49,854 | INFO | Done prompt_id=p7059 seed=7070348 runtime=14.75s generated=59 cfg_div_mean=0.086872 consistency=0.004264
+2026-05-26 21:16:49,996 | INFO | Running prompt_id=p7060 split=bottom seed=7071348
+2026-05-26 21:17:04,935 | INFO | Memory after prompt_id=p7060 seed=7071348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:17:04,935 | INFO | Done prompt_id=p7060 seed=7071348 runtime=14.42s generated=60 cfg_div_mean=0.085849 consistency=0.004422
+2026-05-26 21:17:05,069 | INFO | Running prompt_id=p7061 split=bottom seed=7072348
+2026-05-26 21:17:19,796 | INFO | Memory after prompt_id=p7061 seed=7072348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:17:19,796 | INFO | Done prompt_id=p7061 seed=7072348 runtime=14.41s generated=61 cfg_div_mean=0.091031 consistency=0.004203
+2026-05-26 21:17:19,909 | INFO | Running prompt_id=p7062 split=bottom seed=7073348
+2026-05-26 21:17:34,753 | INFO | Memory after prompt_id=p7062 seed=7073348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:17:34,754 | INFO | Done prompt_id=p7062 seed=7073348 runtime=14.42s generated=62 cfg_div_mean=0.089300 consistency=0.004327
+2026-05-26 21:17:34,891 | INFO | Running prompt_id=p7063 split=bottom seed=7074348
+2026-05-26 21:17:49,961 | INFO | Memory after prompt_id=p7063 seed=7074348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:17:49,961 | INFO | Done prompt_id=p7063 seed=7074348 runtime=14.63s generated=63 cfg_div_mean=0.080752 consistency=0.004589
+2026-05-26 21:17:50,096 | INFO | Running prompt_id=p7064 split=bottom seed=7075348
+2026-05-26 21:18:05,220 | INFO | Memory after prompt_id=p7064 seed=7075348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:18:05,221 | INFO | Done prompt_id=p7064 seed=7075348 runtime=14.71s generated=64 cfg_div_mean=0.060600 consistency=0.004525
+2026-05-26 21:18:05,334 | INFO | Running prompt_id=p7065 split=bottom seed=7076348
+2026-05-26 21:18:20,199 | INFO | Memory after prompt_id=p7065 seed=7076348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:18:20,199 | INFO | Done prompt_id=p7065 seed=7076348 runtime=14.44s generated=65 cfg_div_mean=0.122081 consistency=0.004309
+2026-05-26 21:18:20,338 | INFO | Running prompt_id=p7066 split=bottom seed=7077348
+2026-05-26 21:18:35,057 | INFO | Memory after prompt_id=p7066 seed=7077348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:18:35,057 | INFO | Done prompt_id=p7066 seed=7077348 runtime=14.49s generated=66 cfg_div_mean=0.076197 consistency=0.004371
+2026-05-26 21:18:35,190 | INFO | Running prompt_id=p7067 split=bottom seed=7078348
+2026-05-26 21:18:50,248 | INFO | Memory after prompt_id=p7067 seed=7078348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:18:50,248 | INFO | Done prompt_id=p7067 seed=7078348 runtime=14.58s generated=67 cfg_div_mean=0.083799 consistency=0.004602
+2026-05-26 21:18:50,364 | INFO | Running prompt_id=p7068 split=bottom seed=7079348
+2026-05-26 21:19:05,295 | INFO | Memory after prompt_id=p7068 seed=7079348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:19:05,295 | INFO | Done prompt_id=p7068 seed=7079348 runtime=14.42s generated=68 cfg_div_mean=0.037342 consistency=0.004499
+2026-05-26 21:19:05,431 | INFO | Running prompt_id=p7069 split=bottom seed=7080348
+2026-05-26 21:19:20,008 | INFO | Memory after prompt_id=p7069 seed=7080348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:19:20,008 | INFO | Done prompt_id=p7069 seed=7080348 runtime=14.40s generated=69 cfg_div_mean=0.070970 consistency=0.004267
+2026-05-26 21:19:20,142 | INFO | Running prompt_id=p7070 split=bottom seed=7081348
+2026-05-26 21:19:35,210 | INFO | Memory after prompt_id=p7070 seed=7081348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:19:35,210 | INFO | Done prompt_id=p7070 seed=7081348 runtime=14.55s generated=70 cfg_div_mean=0.057976 consistency=0.004554
+2026-05-26 21:19:35,323 | INFO | Running prompt_id=p7071 split=bottom seed=7082348
+2026-05-26 21:19:50,310 | INFO | Memory after prompt_id=p7071 seed=7082348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:19:50,310 | INFO | Done prompt_id=p7071 seed=7082348 runtime=14.43s generated=71 cfg_div_mean=0.082476 consistency=0.004509
+2026-05-26 21:19:50,448 | INFO | Running prompt_id=p7072 split=bottom seed=7083348
+2026-05-26 21:20:06,483 | INFO | Memory after prompt_id=p7072 seed=7083348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:20:06,483 | INFO | Done prompt_id=p7072 seed=7083348 runtime=15.72s generated=72 cfg_div_mean=0.069137 consistency=0.004855
+2026-05-26 21:20:06,619 | INFO | Running prompt_id=p7073 split=bottom seed=7084348
+2026-05-26 21:20:21,460 | INFO | Memory after prompt_id=p7073 seed=7084348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:20:21,460 | INFO | Done prompt_id=p7073 seed=7084348 runtime=14.42s generated=73 cfg_div_mean=0.065554 consistency=0.004279
+2026-05-26 21:20:21,575 | INFO | Running prompt_id=p7074 split=bottom seed=7085348
+2026-05-26 21:20:36,321 | INFO | Memory after prompt_id=p7074 seed=7085348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:20:36,321 | INFO | Done prompt_id=p7074 seed=7085348 runtime=14.42s generated=74 cfg_div_mean=0.090719 consistency=0.004310
+2026-05-26 21:20:36,465 | INFO | Running prompt_id=p7075 split=bottom seed=7086348
+2026-05-26 21:20:51,385 | INFO | Memory after prompt_id=p7075 seed=7086348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:20:51,385 | INFO | Done prompt_id=p7075 seed=7086348 runtime=14.41s generated=75 cfg_div_mean=0.084324 consistency=0.004466
+2026-05-26 21:20:51,517 | INFO | Running prompt_id=p7076 split=bottom seed=7087348
+2026-05-26 21:21:06,391 | INFO | Memory after prompt_id=p7076 seed=7087348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:21:06,391 | INFO | Done prompt_id=p7076 seed=7087348 runtime=14.43s generated=76 cfg_div_mean=0.095092 consistency=0.004336
+2026-05-26 21:21:06,506 | INFO | Running prompt_id=p7077 split=bottom seed=7088348
+2026-05-26 21:21:21,361 | INFO | Memory after prompt_id=p7077 seed=7088348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:21:21,362 | INFO | Done prompt_id=p7077 seed=7088348 runtime=14.43s generated=77 cfg_div_mean=0.068559 consistency=0.004725
+2026-05-26 21:21:21,508 | INFO | Running prompt_id=p7078 split=bottom seed=7089348
+2026-05-26 21:21:36,179 | INFO | Memory after prompt_id=p7078 seed=7089348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:21:36,179 | INFO | Done prompt_id=p7078 seed=7089348 runtime=14.45s generated=78 cfg_div_mean=0.087945 consistency=0.004111
+2026-05-26 21:21:36,309 | INFO | Running prompt_id=p7079 split=bottom seed=7090348
+2026-05-26 21:21:51,285 | INFO | Memory after prompt_id=p7079 seed=7090348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:21:51,285 | INFO | Done prompt_id=p7079 seed=7090348 runtime=14.44s generated=79 cfg_div_mean=0.088861 consistency=0.004487
+2026-05-26 21:21:51,403 | INFO | Running prompt_id=p7080 split=bottom seed=7091348
+2026-05-26 21:22:06,398 | INFO | Memory after prompt_id=p7080 seed=7091348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:22:06,399 | INFO | Done prompt_id=p7080 seed=7091348 runtime=14.44s generated=80 cfg_div_mean=0.078047 consistency=0.004501
+2026-05-26 21:22:06,543 | INFO | Running prompt_id=p7081 split=bottom seed=7092348
+2026-05-26 21:22:21,372 | INFO | Memory after prompt_id=p7081 seed=7092348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:22:21,372 | INFO | Done prompt_id=p7081 seed=7092348 runtime=14.43s generated=81 cfg_div_mean=0.091054 consistency=0.004515
+2026-05-26 21:22:21,502 | INFO | Running prompt_id=p7082 split=bottom seed=7093348
+2026-05-26 21:22:36,366 | INFO | Memory after prompt_id=p7082 seed=7093348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:22:36,366 | INFO | Done prompt_id=p7082 seed=7093348 runtime=14.41s generated=82 cfg_div_mean=0.086497 consistency=0.004452
+2026-05-26 21:22:36,480 | INFO | Running prompt_id=p7083 split=bottom seed=7094348
+2026-05-26 21:22:51,418 | INFO | Memory after prompt_id=p7083 seed=7094348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:22:51,418 | INFO | Done prompt_id=p7083 seed=7094348 runtime=14.42s generated=83 cfg_div_mean=0.070408 consistency=0.004607
+2026-05-26 21:22:51,562 | INFO | Running prompt_id=p7084 split=bottom seed=7095348
+2026-05-26 21:23:06,379 | INFO | Memory after prompt_id=p7084 seed=7095348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:23:06,379 | INFO | Done prompt_id=p7084 seed=7095348 runtime=14.41s generated=84 cfg_div_mean=0.069571 consistency=0.004857
+2026-05-26 21:23:06,508 | INFO | Running prompt_id=p7085 split=bottom seed=7096348
+2026-05-26 21:23:21,412 | INFO | Memory after prompt_id=p7085 seed=7096348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:23:21,413 | INFO | Done prompt_id=p7085 seed=7096348 runtime=14.44s generated=85 cfg_div_mean=0.070747 consistency=0.004585
+2026-05-26 21:23:21,526 | INFO | Running prompt_id=p7086 split=bottom seed=7097348
+2026-05-26 21:23:36,398 | INFO | Memory after prompt_id=p7086 seed=7097348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:23:36,398 | INFO | Done prompt_id=p7086 seed=7097348 runtime=14.45s generated=86 cfg_div_mean=0.083611 consistency=0.004510
+2026-05-26 21:23:36,557 | INFO | Running prompt_id=p7087 split=bottom seed=7098348
+2026-05-26 21:23:51,464 | INFO | Memory after prompt_id=p7087 seed=7098348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:23:51,464 | INFO | Done prompt_id=p7087 seed=7098348 runtime=14.45s generated=87 cfg_div_mean=0.068378 consistency=0.004741
+2026-05-26 21:23:51,581 | INFO | Running prompt_id=p7088 split=bottom seed=7099348
+2026-05-26 21:24:06,624 | INFO | Memory after prompt_id=p7088 seed=7099348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:24:06,624 | INFO | Done prompt_id=p7088 seed=7099348 runtime=14.69s generated=88 cfg_div_mean=0.066280 consistency=0.004939
+2026-05-26 21:24:06,739 | INFO | Running prompt_id=p7089 split=bottom seed=7100348
+2026-05-26 21:24:21,648 | INFO | Memory after prompt_id=p7089 seed=7100348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:24:21,649 | INFO | Done prompt_id=p7089 seed=7100348 runtime=14.44s generated=89 cfg_div_mean=0.050142 consistency=0.004729
+2026-05-26 21:24:21,807 | INFO | Running prompt_id=p7090 split=bottom seed=7101348
+2026-05-26 21:24:36,554 | INFO | Memory after prompt_id=p7090 seed=7101348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:24:36,554 | INFO | Done prompt_id=p7090 seed=7101348 runtime=14.42s generated=90 cfg_div_mean=0.063878 consistency=0.004319
+2026-05-26 21:24:36,669 | INFO | Running prompt_id=p7091 split=bottom seed=7102348
+2026-05-26 21:24:51,973 | INFO | Memory after prompt_id=p7091 seed=7102348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:24:51,973 | INFO | Done prompt_id=p7091 seed=7102348 runtime=14.82s generated=91 cfg_div_mean=0.071193 consistency=0.004557
+2026-05-26 21:24:52,091 | INFO | Running prompt_id=p7092 split=bottom seed=7103348
+2026-05-26 21:25:06,940 | INFO | Memory after prompt_id=p7092 seed=7103348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:25:06,940 | INFO | Done prompt_id=p7092 seed=7103348 runtime=14.46s generated=92 cfg_div_mean=0.068667 consistency=0.004612
+2026-05-26 21:25:07,100 | INFO | Running prompt_id=p7093 split=bottom seed=7104348
+2026-05-26 21:25:22,064 | INFO | Memory after prompt_id=p7093 seed=7104348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:25:22,064 | INFO | Done prompt_id=p7093 seed=7104348 runtime=14.53s generated=93 cfg_div_mean=0.096049 consistency=0.004296
+2026-05-26 21:25:22,179 | INFO | Running prompt_id=p7094 split=bottom seed=7105348
+2026-05-26 21:25:37,573 | INFO | Memory after prompt_id=p7094 seed=7105348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:25:37,573 | INFO | Done prompt_id=p7094 seed=7105348 runtime=14.96s generated=94 cfg_div_mean=0.087259 consistency=0.004500
+2026-05-26 21:25:37,687 | INFO | Running prompt_id=p7095 split=bottom seed=7106348
+2026-05-26 21:25:52,863 | INFO | Memory after prompt_id=p7095 seed=7106348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:25:52,863 | INFO | Done prompt_id=p7095 seed=7106348 runtime=14.77s generated=95 cfg_div_mean=0.061621 consistency=0.004857
+2026-05-26 21:25:53,022 | INFO | Running prompt_id=p7096 split=bottom seed=7107348
+2026-05-26 21:26:08,199 | INFO | Memory after prompt_id=p7096 seed=7107348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:26:08,199 | INFO | Done prompt_id=p7096 seed=7107348 runtime=14.65s generated=96 cfg_div_mean=0.052631 consistency=0.004319
+2026-05-26 21:26:08,313 | INFO | Running prompt_id=p7097 split=bottom seed=7108348
+2026-05-26 21:26:23,013 | INFO | Memory after prompt_id=p7097 seed=7108348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:26:23,013 | INFO | Done prompt_id=p7097 seed=7108348 runtime=14.41s generated=97 cfg_div_mean=0.058014 consistency=0.004952
+2026-05-26 21:26:23,129 | INFO | Running prompt_id=p7098 split=bottom seed=7109348
+2026-05-26 21:26:38,048 | INFO | Memory after prompt_id=p7098 seed=7109348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:26:38,048 | INFO | Done prompt_id=p7098 seed=7109348 runtime=14.42s generated=98 cfg_div_mean=0.067707 consistency=0.004617
+2026-05-26 21:26:38,207 | INFO | Running prompt_id=p7099 split=bottom seed=7110348
+2026-05-26 21:26:53,057 | INFO | Memory after prompt_id=p7099 seed=7110348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:26:53,057 | INFO | Done prompt_id=p7099 seed=7110348 runtime=14.44s generated=99 cfg_div_mean=0.081411 consistency=0.004483
+2026-05-26 21:26:53,171 | INFO | Running prompt_id=p7100 split=bottom seed=7111348
+2026-05-26 21:27:07,954 | INFO | Memory after prompt_id=p7100 seed=7111348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:27:07,954 | INFO | Done prompt_id=p7100 seed=7111348 runtime=14.43s generated=100 cfg_div_mean=0.082759 consistency=0.004519
+2026-05-26 21:27:08,068 | INFO | Running prompt_id=p7101 split=bottom seed=7112348
+2026-05-26 21:27:22,948 | INFO | Memory after prompt_id=p7101 seed=7112348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:27:22,948 | INFO | Done prompt_id=p7101 seed=7112348 runtime=14.46s generated=101 cfg_div_mean=0.093645 consistency=0.004223
+2026-05-26 21:27:23,107 | INFO | Running prompt_id=p7102 split=bottom seed=7113348
+2026-05-26 21:27:38,099 | INFO | Memory after prompt_id=p7102 seed=7113348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:27:38,099 | INFO | Done prompt_id=p7102 seed=7113348 runtime=14.55s generated=102 cfg_div_mean=0.095629 consistency=0.004519
+2026-05-26 21:27:38,212 | INFO | Running prompt_id=p7103 split=bottom seed=7114348
+2026-05-26 21:27:53,022 | INFO | Memory after prompt_id=p7103 seed=7114348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:27:53,022 | INFO | Done prompt_id=p7103 seed=7114348 runtime=14.43s generated=103 cfg_div_mean=0.071705 consistency=0.004543
+2026-05-26 21:27:53,135 | INFO | Running prompt_id=p7104 split=bottom seed=7115348
+2026-05-26 21:28:08,013 | INFO | Memory after prompt_id=p7104 seed=7115348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:28:08,013 | INFO | Done prompt_id=p7104 seed=7115348 runtime=14.43s generated=104 cfg_div_mean=0.099704 consistency=0.004426
+2026-05-26 21:28:08,171 | INFO | Running prompt_id=p7105 split=bottom seed=7116348
+2026-05-26 21:28:23,182 | INFO | Memory after prompt_id=p7105 seed=7116348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:28:23,182 | INFO | Done prompt_id=p7105 seed=7116348 runtime=14.42s generated=105 cfg_div_mean=0.062106 consistency=0.004719
+2026-05-26 21:28:23,297 | INFO | Running prompt_id=p7106 split=bottom seed=7117348
+2026-05-26 21:28:37,912 | INFO | Memory after prompt_id=p7106 seed=7117348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:28:37,912 | INFO | Done prompt_id=p7106 seed=7117348 runtime=14.41s generated=106 cfg_div_mean=0.056713 consistency=0.004196
+2026-05-26 21:28:38,028 | INFO | Running prompt_id=p7107 split=bottom seed=7118348
+2026-05-26 21:28:53,019 | INFO | Memory after prompt_id=p7107 seed=7118348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:28:53,019 | INFO | Done prompt_id=p7107 seed=7118348 runtime=14.43s generated=107 cfg_div_mean=0.055317 consistency=0.004703
+2026-05-26 21:28:53,177 | INFO | Running prompt_id=p7108 split=bottom seed=7119348
+2026-05-26 21:29:08,011 | INFO | Memory after prompt_id=p7108 seed=7119348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:29:08,011 | INFO | Done prompt_id=p7108 seed=7119348 runtime=14.44s generated=108 cfg_div_mean=0.096879 consistency=0.004327
+2026-05-26 21:29:08,126 | INFO | Running prompt_id=p7109 split=bottom seed=7120348
+2026-05-26 21:29:23,170 | INFO | Memory after prompt_id=p7109 seed=7120348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:29:23,170 | INFO | Done prompt_id=p7109 seed=7120348 runtime=14.46s generated=109 cfg_div_mean=0.064764 consistency=0.004629
+2026-05-26 21:29:23,285 | INFO | Running prompt_id=p7110 split=bottom seed=7121348
+2026-05-26 21:29:38,531 | INFO | Memory after prompt_id=p7110 seed=7121348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:29:38,531 | INFO | Done prompt_id=p7110 seed=7121348 runtime=14.65s generated=110 cfg_div_mean=0.043848 consistency=0.004956
+2026-05-26 21:29:38,688 | INFO | Running prompt_id=p7111 split=bottom seed=7122348
+2026-05-26 21:29:53,573 | INFO | Memory after prompt_id=p7111 seed=7122348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:29:53,573 | INFO | Done prompt_id=p7111 seed=7122348 runtime=14.49s generated=111 cfg_div_mean=0.097704 consistency=0.004192
+2026-05-26 21:29:53,685 | INFO | Running prompt_id=p7112 split=bottom seed=7123348
+2026-05-26 21:30:08,600 | INFO | Memory after prompt_id=p7112 seed=7123348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:30:08,600 | INFO | Done prompt_id=p7112 seed=7123348 runtime=14.42s generated=112 cfg_div_mean=0.069776 consistency=0.004454
+2026-05-26 21:30:08,714 | INFO | Running prompt_id=p7113 split=bottom seed=7124348
+2026-05-26 21:30:23,643 | INFO | Memory after prompt_id=p7113 seed=7124348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:30:23,643 | INFO | Done prompt_id=p7113 seed=7124348 runtime=14.43s generated=113 cfg_div_mean=0.077768 consistency=0.004552
+2026-05-26 21:30:23,798 | INFO | Running prompt_id=p7114 split=bottom seed=7125348
+2026-05-26 21:30:38,799 | INFO | Memory after prompt_id=p7114 seed=7125348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:30:38,799 | INFO | Done prompt_id=p7114 seed=7125348 runtime=14.45s generated=114 cfg_div_mean=0.051511 consistency=0.004633
+2026-05-26 21:30:38,918 | INFO | Running prompt_id=p7115 split=bottom seed=7126348
+2026-05-26 21:30:53,812 | INFO | Memory after prompt_id=p7115 seed=7126348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:30:53,812 | INFO | Done prompt_id=p7115 seed=7126348 runtime=14.47s generated=115 cfg_div_mean=0.048981 consistency=0.004905
+2026-05-26 21:30:53,926 | INFO | Running prompt_id=p7116 split=bottom seed=7127348
+2026-05-26 21:31:08,900 | INFO | Memory after prompt_id=p7116 seed=7127348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:31:08,901 | INFO | Done prompt_id=p7116 seed=7127348 runtime=14.63s generated=116 cfg_div_mean=0.077831 consistency=0.004595
+2026-05-26 21:31:09,058 | INFO | Running prompt_id=p7117 split=bottom seed=7128348
+2026-05-26 21:31:23,876 | INFO | Memory after prompt_id=p7117 seed=7128348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:31:23,877 | INFO | Done prompt_id=p7117 seed=7128348 runtime=14.41s generated=117 cfg_div_mean=0.075769 consistency=0.004465
+2026-05-26 21:31:23,991 | INFO | Running prompt_id=p7118 split=bottom seed=7129348
+2026-05-26 21:31:38,892 | INFO | Memory after prompt_id=p7118 seed=7129348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:31:38,892 | INFO | Done prompt_id=p7118 seed=7129348 runtime=14.43s generated=118 cfg_div_mean=0.060923 consistency=0.004765
+2026-05-26 21:31:39,036 | INFO | Running prompt_id=p7119 split=bottom seed=7130348
+2026-05-26 21:31:53,984 | INFO | Memory after prompt_id=p7119 seed=7130348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:31:53,984 | INFO | Done prompt_id=p7119 seed=7130348 runtime=14.59s generated=119 cfg_div_mean=0.075910 consistency=0.004648
+2026-05-26 21:31:54,121 | INFO | Running prompt_id=p7120 split=bottom seed=7131348
+2026-05-26 21:32:08,866 | INFO | Memory after prompt_id=p7120 seed=7131348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:32:08,866 | INFO | Done prompt_id=p7120 seed=7131348 runtime=14.43s generated=120 cfg_div_mean=0.081113 consistency=0.004382
+2026-05-26 21:32:08,987 | INFO | Running prompt_id=p7121 split=bottom seed=7132348
+2026-05-26 21:32:23,826 | INFO | Memory after prompt_id=p7121 seed=7132348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:32:23,826 | INFO | Done prompt_id=p7121 seed=7132348 runtime=14.46s generated=121 cfg_div_mean=0.062661 consistency=0.004924
+2026-05-26 21:32:23,967 | INFO | Running prompt_id=p7122 split=bottom seed=7133348
+2026-05-26 21:32:38,903 | INFO | Memory after prompt_id=p7122 seed=7133348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:32:38,903 | INFO | Done prompt_id=p7122 seed=7133348 runtime=14.44s generated=122 cfg_div_mean=0.086534 consistency=0.004355
+2026-05-26 21:32:39,061 | INFO | Running prompt_id=p7123 split=bottom seed=7134348
+2026-05-26 21:32:54,046 | INFO | Memory after prompt_id=p7123 seed=7134348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:32:54,046 | INFO | Done prompt_id=p7123 seed=7134348 runtime=14.59s generated=123 cfg_div_mean=0.057056 consistency=0.004873
+2026-05-26 21:32:54,165 | INFO | Running prompt_id=p7124 split=bottom seed=7135348
+2026-05-26 21:33:09,297 | INFO | Memory after prompt_id=p7124 seed=7135348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:33:09,297 | INFO | Done prompt_id=p7124 seed=7135348 runtime=14.69s generated=124 cfg_div_mean=0.084704 consistency=0.004419
+2026-05-26 21:33:09,436 | INFO | Running prompt_id=p7125 split=bottom seed=7136348
+2026-05-26 21:33:24,372 | INFO | Memory after prompt_id=p7125 seed=7136348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:33:24,372 | INFO | Done prompt_id=p7125 seed=7136348 runtime=14.43s generated=125 cfg_div_mean=0.077353 consistency=0.004328
+2026-05-26 21:33:24,509 | INFO | Running prompt_id=p7126 split=bottom seed=7137348
+2026-05-26 21:33:39,395 | INFO | Memory after prompt_id=p7126 seed=7137348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:33:39,395 | INFO | Done prompt_id=p7126 seed=7137348 runtime=14.43s generated=126 cfg_div_mean=0.072233 consistency=0.004396
+2026-05-26 21:33:39,511 | INFO | Running prompt_id=p7127 split=bottom seed=7138348
+2026-05-26 21:33:54,493 | INFO | Memory after prompt_id=p7127 seed=7138348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:33:54,493 | INFO | Done prompt_id=p7127 seed=7138348 runtime=14.76s generated=127 cfg_div_mean=0.090916 consistency=0.004139
+2026-05-26 21:33:54,634 | INFO | Running prompt_id=p7128 split=bottom seed=7139348
+2026-05-26 21:34:09,507 | INFO | Memory after prompt_id=p7128 seed=7139348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:34:09,507 | INFO | Done prompt_id=p7128 seed=7139348 runtime=14.44s generated=128 cfg_div_mean=0.064280 consistency=0.004841
+2026-05-26 21:34:09,642 | INFO | Running prompt_id=p7129 split=bottom seed=7140348
+2026-05-26 21:34:24,285 | INFO | Memory after prompt_id=p7129 seed=7140348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:34:24,285 | INFO | Done prompt_id=p7129 seed=7140348 runtime=14.42s generated=129 cfg_div_mean=0.080195 consistency=0.004333
+2026-05-26 21:34:24,399 | INFO | Running prompt_id=p7130 split=bottom seed=7141348
+2026-05-26 21:34:39,282 | INFO | Memory after prompt_id=p7130 seed=7141348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:34:39,282 | INFO | Done prompt_id=p7130 seed=7141348 runtime=14.51s generated=130 cfg_div_mean=0.098140 consistency=0.004215
+2026-05-26 21:34:39,418 | INFO | Running prompt_id=p7131 split=bottom seed=7142348
+2026-05-26 21:34:54,263 | INFO | Memory after prompt_id=p7131 seed=7142348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:34:54,264 | INFO | Done prompt_id=p7131 seed=7142348 runtime=14.42s generated=131 cfg_div_mean=0.076141 consistency=0.004546
+2026-05-26 21:34:54,400 | INFO | Running prompt_id=p7132 split=bottom seed=7143348
+2026-05-26 21:35:09,233 | INFO | Memory after prompt_id=p7132 seed=7143348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:35:09,233 | INFO | Done prompt_id=p7132 seed=7143348 runtime=14.43s generated=132 cfg_div_mean=0.100909 consistency=0.004298
+2026-05-26 21:35:09,346 | INFO | Running prompt_id=p7133 split=bottom seed=7144348
+2026-05-26 21:35:24,178 | INFO | Memory after prompt_id=p7133 seed=7144348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:35:24,179 | INFO | Done prompt_id=p7133 seed=7144348 runtime=14.43s generated=133 cfg_div_mean=0.106670 consistency=0.004139
+2026-05-26 21:35:24,322 | INFO | Running prompt_id=p7134 split=bottom seed=7145348
+2026-05-26 21:35:39,187 | INFO | Memory after prompt_id=p7134 seed=7145348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:35:39,187 | INFO | Done prompt_id=p7134 seed=7145348 runtime=14.43s generated=134 cfg_div_mean=0.080538 consistency=0.004614
+2026-05-26 21:35:39,315 | INFO | Running prompt_id=p7135 split=bottom seed=7146348
+2026-05-26 21:35:54,285 | INFO | Memory after prompt_id=p7135 seed=7146348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:35:54,285 | INFO | Done prompt_id=p7135 seed=7146348 runtime=14.43s generated=135 cfg_div_mean=0.068541 consistency=0.004632
+2026-05-26 21:35:54,401 | INFO | Running prompt_id=p7136 split=bottom seed=7147348
+2026-05-26 21:36:09,282 | INFO | Memory after prompt_id=p7136 seed=7147348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:36:09,282 | INFO | Done prompt_id=p7136 seed=7147348 runtime=14.40s generated=136 cfg_div_mean=0.071870 consistency=0.004633
+2026-05-26 21:36:09,424 | INFO | Running prompt_id=p7137 split=bottom seed=7148348
+2026-05-26 21:36:24,040 | INFO | Memory after prompt_id=p7137 seed=7148348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:36:24,041 | INFO | Done prompt_id=p7137 seed=7148348 runtime=14.40s generated=137 cfg_div_mean=0.077219 consistency=0.004204
+2026-05-26 21:36:24,169 | INFO | Running prompt_id=p7138 split=bottom seed=7149348
+2026-05-26 21:36:39,152 | INFO | Memory after prompt_id=p7138 seed=7149348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:36:39,152 | INFO | Done prompt_id=p7138 seed=7149348 runtime=14.56s generated=138 cfg_div_mean=0.097143 consistency=0.004341
+2026-05-26 21:36:39,265 | INFO | Running prompt_id=p7139 split=bottom seed=7150348
+2026-05-26 21:36:54,127 | INFO | Memory after prompt_id=p7139 seed=7150348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:36:54,127 | INFO | Done prompt_id=p7139 seed=7150348 runtime=14.43s generated=139 cfg_div_mean=0.077667 consistency=0.004475
+2026-05-26 21:36:54,271 | INFO | Running prompt_id=p7140 split=bottom seed=7151348
+2026-05-26 21:37:09,239 | INFO | Memory after prompt_id=p7140 seed=7151348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:37:09,240 | INFO | Done prompt_id=p7140 seed=7151348 runtime=14.48s generated=140 cfg_div_mean=0.066916 consistency=0.004539
+2026-05-26 21:37:09,368 | INFO | Running prompt_id=p7141 split=bottom seed=7152348
+2026-05-26 21:37:24,296 | INFO | Memory after prompt_id=p7141 seed=7152348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:37:24,296 | INFO | Done prompt_id=p7141 seed=7152348 runtime=14.45s generated=141 cfg_div_mean=0.072142 consistency=0.004638
+2026-05-26 21:37:24,410 | INFO | Running prompt_id=p7142 split=bottom seed=7153348
+2026-05-26 21:37:39,473 | INFO | Memory after prompt_id=p7142 seed=7153348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:37:39,473 | INFO | Done prompt_id=p7142 seed=7153348 runtime=14.68s generated=142 cfg_div_mean=0.085229 consistency=0.004428
+2026-05-26 21:37:39,618 | INFO | Running prompt_id=p7143 split=bottom seed=7154348
+2026-05-26 21:37:54,477 | INFO | Memory after prompt_id=p7143 seed=7154348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:37:54,477 | INFO | Done prompt_id=p7143 seed=7154348 runtime=14.41s generated=143 cfg_div_mean=0.080613 consistency=0.004571
+2026-05-26 21:37:54,606 | INFO | Running prompt_id=p7144 split=bottom seed=7155348
+2026-05-26 21:38:09,516 | INFO | Memory after prompt_id=p7144 seed=7155348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:38:09,516 | INFO | Done prompt_id=p7144 seed=7155348 runtime=14.42s generated=144 cfg_div_mean=0.082900 consistency=0.004536
+2026-05-26 21:38:09,632 | INFO | Running prompt_id=p7145 split=bottom seed=7156348
+2026-05-26 21:38:24,392 | INFO | Memory after prompt_id=p7145 seed=7156348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:38:24,392 | INFO | Done prompt_id=p7145 seed=7156348 runtime=14.41s generated=145 cfg_div_mean=0.082689 consistency=0.004624
+2026-05-26 21:38:24,548 | INFO | Running prompt_id=p7146 split=bottom seed=7157348
+2026-05-26 21:38:39,465 | INFO | Memory after prompt_id=p7146 seed=7157348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:38:39,465 | INFO | Done prompt_id=p7146 seed=7157348 runtime=14.43s generated=146 cfg_div_mean=0.089695 consistency=0.004357
+2026-05-26 21:38:39,594 | INFO | Running prompt_id=p7147 split=bottom seed=7158348
+2026-05-26 21:38:54,438 | INFO | Memory after prompt_id=p7147 seed=7158348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:38:54,438 | INFO | Done prompt_id=p7147 seed=7158348 runtime=14.44s generated=147 cfg_div_mean=0.075400 consistency=0.004325
+2026-05-26 21:38:54,553 | INFO | Running prompt_id=p7148 split=bottom seed=7159348
+2026-05-26 21:39:09,844 | INFO | Memory after prompt_id=p7148 seed=7159348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:39:09,844 | INFO | Done prompt_id=p7148 seed=7159348 runtime=14.82s generated=148 cfg_div_mean=0.095360 consistency=0.004321
+2026-05-26 21:39:10,001 | INFO | Running prompt_id=p7149 split=bottom seed=7160348
+2026-05-26 21:39:24,697 | INFO | Memory after prompt_id=p7149 seed=7160348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:39:24,697 | INFO | Done prompt_id=p7149 seed=7160348 runtime=14.44s generated=149 cfg_div_mean=0.077153 consistency=0.004617
+2026-05-26 21:39:24,809 | INFO | Running prompt_id=p7150 split=bottom seed=7161348
+2026-05-26 21:39:39,917 | INFO | Memory after prompt_id=p7150 seed=7161348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:39:39,917 | INFO | Done prompt_id=p7150 seed=7161348 runtime=14.59s generated=150 cfg_div_mean=0.056441 consistency=0.004659
+2026-05-26 21:39:40,032 | INFO | Running prompt_id=p7151 split=bottom seed=7162348
+2026-05-26 21:39:54,986 | INFO | Memory after prompt_id=p7151 seed=7162348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:39:54,986 | INFO | Done prompt_id=p7151 seed=7162348 runtime=14.42s generated=151 cfg_div_mean=0.086138 consistency=0.004394
+2026-05-26 21:39:55,147 | INFO | Running prompt_id=p7152 split=bottom seed=7163348
+2026-05-26 21:40:09,987 | INFO | Memory after prompt_id=p7152 seed=7163348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:40:09,987 | INFO | Done prompt_id=p7152 seed=7163348 runtime=14.42s generated=152 cfg_div_mean=0.080502 consistency=0.004514
+2026-05-26 21:40:10,103 | INFO | Running prompt_id=p7153 split=bottom seed=7164348
+2026-05-26 21:40:25,098 | INFO | Memory after prompt_id=p7153 seed=7164348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:40:25,098 | INFO | Done prompt_id=p7153 seed=7164348 runtime=14.42s generated=153 cfg_div_mean=0.074185 consistency=0.004471
+2026-05-26 21:40:25,213 | INFO | Running prompt_id=p7154 split=bottom seed=7165348
+2026-05-26 21:40:40,057 | INFO | Memory after prompt_id=p7154 seed=7165348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:40:40,057 | INFO | Done prompt_id=p7154 seed=7165348 runtime=14.44s generated=154 cfg_div_mean=0.084337 consistency=0.004536
+2026-05-26 21:40:40,218 | INFO | Running prompt_id=p7155 split=bottom seed=7166348
+2026-05-26 21:40:55,313 | INFO | Memory after prompt_id=p7155 seed=7166348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:40:55,313 | INFO | Done prompt_id=p7155 seed=7166348 runtime=14.59s generated=155 cfg_div_mean=0.067254 consistency=0.004645
+2026-05-26 21:40:55,429 | INFO | Running prompt_id=p7156 split=bottom seed=7167348
+2026-05-26 21:41:10,174 | INFO | Memory after prompt_id=p7156 seed=7167348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:41:10,175 | INFO | Done prompt_id=p7156 seed=7167348 runtime=14.42s generated=156 cfg_div_mean=0.089854 consistency=0.004138
+2026-05-26 21:41:10,290 | INFO | Running prompt_id=p7157 split=bottom seed=7168348
+2026-05-26 21:41:25,197 | INFO | Memory after prompt_id=p7157 seed=7168348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:41:25,197 | INFO | Done prompt_id=p7157 seed=7168348 runtime=14.43s generated=157 cfg_div_mean=0.055910 consistency=0.004664
+2026-05-26 21:41:25,357 | INFO | Running prompt_id=p7158 split=bottom seed=7169348
+2026-05-26 21:41:40,487 | INFO | Memory after prompt_id=p7158 seed=7169348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:41:40,487 | INFO | Done prompt_id=p7158 seed=7169348 runtime=14.55s generated=158 cfg_div_mean=0.042492 consistency=0.004351
+2026-05-26 21:41:40,603 | INFO | Running prompt_id=p7159 split=bottom seed=7170348
+2026-05-26 21:41:55,570 | INFO | Memory after prompt_id=p7159 seed=7170348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:41:55,570 | INFO | Done prompt_id=p7159 seed=7170348 runtime=14.66s generated=159 cfg_div_mean=0.109306 consistency=0.004355
+2026-05-26 21:41:55,686 | INFO | Running prompt_id=p7160 split=bottom seed=7171348
+2026-05-26 21:42:10,934 | INFO | Memory after prompt_id=p7160 seed=7171348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:42:10,934 | INFO | Done prompt_id=p7160 seed=7171348 runtime=14.81s generated=160 cfg_div_mean=0.059598 consistency=0.004479
+2026-05-26 21:42:11,095 | INFO | Running prompt_id=p7161 split=bottom seed=7172348
+2026-05-26 21:42:26,015 | INFO | Memory after prompt_id=p7161 seed=7172348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:42:26,015 | INFO | Done prompt_id=p7161 seed=7172348 runtime=14.45s generated=161 cfg_div_mean=0.111599 consistency=0.004369
+2026-05-26 21:42:26,132 | INFO | Running prompt_id=p7162 split=bottom seed=7173348
+2026-05-26 21:42:41,021 | INFO | Memory after prompt_id=p7162 seed=7173348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:42:41,021 | INFO | Done prompt_id=p7162 seed=7173348 runtime=14.48s generated=162 cfg_div_mean=0.068049 consistency=0.004868
+2026-05-26 21:42:41,136 | INFO | Running prompt_id=p7163 split=bottom seed=7174348
+2026-05-26 21:42:55,898 | INFO | Memory after prompt_id=p7163 seed=7174348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:42:55,898 | INFO | Done prompt_id=p7163 seed=7174348 runtime=14.44s generated=163 cfg_div_mean=0.073685 consistency=0.004549
+2026-05-26 21:42:56,059 | INFO | Running prompt_id=p7164 split=bottom seed=7175348
+2026-05-26 21:43:11,037 | INFO | Memory after prompt_id=p7164 seed=7175348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:43:11,037 | INFO | Done prompt_id=p7164 seed=7175348 runtime=14.47s generated=164 cfg_div_mean=0.080326 consistency=0.004563
+2026-05-26 21:43:11,154 | INFO | Running prompt_id=p7165 split=bottom seed=7176348
+2026-05-26 21:43:25,820 | INFO | Memory after prompt_id=p7165 seed=7176348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:43:25,820 | INFO | Done prompt_id=p7165 seed=7176348 runtime=14.42s generated=165 cfg_div_mean=0.078887 consistency=0.004345
+2026-05-26 21:43:25,936 | INFO | Running prompt_id=p7166 split=bottom seed=7177348
+2026-05-26 21:43:40,932 | INFO | Memory after prompt_id=p7166 seed=7177348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:43:40,932 | INFO | Done prompt_id=p7166 seed=7177348 runtime=14.63s generated=166 cfg_div_mean=0.077879 consistency=0.004613
+2026-05-26 21:43:41,093 | INFO | Running prompt_id=p7167 split=bottom seed=7178348
+2026-05-26 21:43:55,724 | INFO | Memory after prompt_id=p7167 seed=7178348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:43:55,724 | INFO | Done prompt_id=p7167 seed=7178348 runtime=14.42s generated=167 cfg_div_mean=0.086869 consistency=0.004239
+2026-05-26 21:43:55,840 | INFO | Running prompt_id=p7168 split=bottom seed=7179348
+2026-05-26 21:44:10,786 | INFO | Memory after prompt_id=p7168 seed=7179348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:44:10,786 | INFO | Done prompt_id=p7168 seed=7179348 runtime=14.47s generated=168 cfg_div_mean=0.068918 consistency=0.004676
+2026-05-26 21:44:10,902 | INFO | Running prompt_id=p7169 split=bottom seed=7180348
+2026-05-26 21:44:25,749 | INFO | Memory after prompt_id=p7169 seed=7180348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:44:25,749 | INFO | Done prompt_id=p7169 seed=7180348 runtime=14.48s generated=169 cfg_div_mean=0.064167 consistency=0.004875
+2026-05-26 21:44:25,908 | INFO | Running prompt_id=p7170 split=bottom seed=7181348
+2026-05-26 21:44:40,827 | INFO | Memory after prompt_id=p7170 seed=7181348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:44:40,828 | INFO | Done prompt_id=p7170 seed=7181348 runtime=14.60s generated=170 cfg_div_mean=0.056355 consistency=0.004942
+2026-05-26 21:44:40,946 | INFO | Running prompt_id=p7171 split=bottom seed=7182348
+2026-05-26 21:44:55,795 | INFO | Memory after prompt_id=p7171 seed=7182348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:44:55,795 | INFO | Done prompt_id=p7171 seed=7182348 runtime=14.43s generated=171 cfg_div_mean=0.076205 consistency=0.004489
+2026-05-26 21:44:55,913 | INFO | Running prompt_id=p7172 split=bottom seed=7183348
+2026-05-26 21:45:10,912 | INFO | Memory after prompt_id=p7172 seed=7183348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:45:10,912 | INFO | Done prompt_id=p7172 seed=7183348 runtime=14.57s generated=172 cfg_div_mean=0.074404 consistency=0.004587
+2026-05-26 21:45:11,072 | INFO | Running prompt_id=p7173 split=bottom seed=7184348
+2026-05-26 21:45:25,987 | INFO | Memory after prompt_id=p7173 seed=7184348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:45:25,987 | INFO | Done prompt_id=p7173 seed=7184348 runtime=14.42s generated=173 cfg_div_mean=0.067568 consistency=0.004546
+2026-05-26 21:45:26,105 | INFO | Running prompt_id=p7174 split=bottom seed=7185348
+2026-05-26 21:45:40,957 | INFO | Memory after prompt_id=p7174 seed=7185348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:45:40,957 | INFO | Done prompt_id=p7174 seed=7185348 runtime=14.45s generated=174 cfg_div_mean=0.086621 consistency=0.004205
+2026-05-26 21:45:41,074 | INFO | Running prompt_id=p7175 split=bottom seed=7186348
+2026-05-26 21:45:55,897 | INFO | Memory after prompt_id=p7175 seed=7186348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:45:55,898 | INFO | Done prompt_id=p7175 seed=7186348 runtime=14.47s generated=175 cfg_div_mean=0.071810 consistency=0.004229
+2026-05-26 21:45:56,056 | INFO | Running prompt_id=p7176 split=bottom seed=7187348
+2026-05-26 21:46:11,165 | INFO | Memory after prompt_id=p7176 seed=7187348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:46:11,165 | INFO | Done prompt_id=p7176 seed=7187348 runtime=14.70s generated=176 cfg_div_mean=0.077070 consistency=0.004311
+2026-05-26 21:46:11,281 | INFO | Running prompt_id=p7177 split=bottom seed=7188348
+2026-05-26 21:46:26,217 | INFO | Memory after prompt_id=p7177 seed=7188348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:46:26,217 | INFO | Done prompt_id=p7177 seed=7188348 runtime=14.43s generated=177 cfg_div_mean=0.079659 consistency=0.004483
+2026-05-26 21:46:26,335 | INFO | Running prompt_id=p7178 split=bottom seed=7189348
+2026-05-26 21:46:41,193 | INFO | Memory after prompt_id=p7178 seed=7189348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:46:41,193 | INFO | Done prompt_id=p7178 seed=7189348 runtime=14.41s generated=178 cfg_div_mean=0.051132 consistency=0.004934
+2026-05-26 21:46:41,353 | INFO | Running prompt_id=p7179 split=bottom seed=7190348
+2026-05-26 21:46:56,096 | INFO | Memory after prompt_id=p7179 seed=7190348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:46:56,096 | INFO | Done prompt_id=p7179 seed=7190348 runtime=14.42s generated=179 cfg_div_mean=0.099139 consistency=0.004186
+2026-05-26 21:46:56,212 | INFO | Running prompt_id=p7180 split=bottom seed=7191348
+2026-05-26 21:47:11,445 | INFO | Memory after prompt_id=p7180 seed=7191348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:47:11,445 | INFO | Done prompt_id=p7180 seed=7191348 runtime=14.78s generated=180 cfg_div_mean=0.055259 consistency=0.004581
+2026-05-26 21:47:11,563 | INFO | Running prompt_id=p7181 split=bottom seed=7192348
+2026-05-26 21:47:26,397 | INFO | Memory after prompt_id=p7181 seed=7192348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:47:26,398 | INFO | Done prompt_id=p7181 seed=7192348 runtime=14.43s generated=181 cfg_div_mean=0.081064 consistency=0.004403
+2026-05-26 21:47:26,556 | INFO | Running prompt_id=p7182 split=bottom seed=7193348
+2026-05-26 21:47:41,273 | INFO | Memory after prompt_id=p7182 seed=7193348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:47:41,273 | INFO | Done prompt_id=p7182 seed=7193348 runtime=14.43s generated=182 cfg_div_mean=0.064327 consistency=0.005009
+2026-05-26 21:47:41,387 | INFO | Running prompt_id=p7183 split=bottom seed=7194348
+2026-05-26 21:47:56,362 | INFO | Memory after prompt_id=p7183 seed=7194348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:47:56,362 | INFO | Done prompt_id=p7183 seed=7194348 runtime=14.57s generated=183 cfg_div_mean=0.101229 consistency=0.004451
+2026-05-26 21:47:56,477 | INFO | Running prompt_id=p7184 split=bottom seed=7195348
+2026-05-26 21:48:11,367 | INFO | Memory after prompt_id=p7184 seed=7195348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:48:11,367 | INFO | Done prompt_id=p7184 seed=7195348 runtime=14.43s generated=184 cfg_div_mean=0.093446 consistency=0.004410
+2026-05-26 21:48:11,524 | INFO | Running prompt_id=p7185 split=bottom seed=7196348
+2026-05-26 21:48:26,381 | INFO | Memory after prompt_id=p7185 seed=7196348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:48:26,381 | INFO | Done prompt_id=p7185 seed=7196348 runtime=14.42s generated=185 cfg_div_mean=0.092565 consistency=0.004277
+2026-05-26 21:48:26,497 | INFO | Running prompt_id=p7186 split=bottom seed=7197348
+2026-05-26 21:48:41,358 | INFO | Memory after prompt_id=p7186 seed=7197348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:48:41,358 | INFO | Done prompt_id=p7186 seed=7197348 runtime=14.43s generated=186 cfg_div_mean=0.106413 consistency=0.004086
+2026-05-26 21:48:41,473 | INFO | Running prompt_id=p7187 split=bottom seed=7198348
+2026-05-26 21:48:56,428 | INFO | Memory after prompt_id=p7187 seed=7198348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:48:56,428 | INFO | Done prompt_id=p7187 seed=7198348 runtime=14.53s generated=187 cfg_div_mean=0.060765 consistency=0.004869
+2026-05-26 21:48:56,586 | INFO | Running prompt_id=p7188 split=bottom seed=7199348
+2026-05-26 21:49:11,325 | INFO | Memory after prompt_id=p7188 seed=7199348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:49:11,325 | INFO | Done prompt_id=p7188 seed=7199348 runtime=14.42s generated=188 cfg_div_mean=0.096429 consistency=0.004286
+2026-05-26 21:49:11,439 | INFO | Running prompt_id=p7189 split=bottom seed=7200348
+2026-05-26 21:49:26,399 | INFO | Memory after prompt_id=p7189 seed=7200348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:49:26,400 | INFO | Done prompt_id=p7189 seed=7200348 runtime=14.43s generated=189 cfg_div_mean=0.077099 consistency=0.004373
+2026-05-26 21:49:26,539 | INFO | Running prompt_id=p7190 split=bottom seed=7201348
+2026-05-26 21:49:41,561 | INFO | Memory after prompt_id=p7190 seed=7201348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:49:41,561 | INFO | Done prompt_id=p7190 seed=7201348 runtime=14.44s generated=190 cfg_div_mean=0.067081 consistency=0.004659
+2026-05-26 21:49:41,695 | INFO | Running prompt_id=p7191 split=bottom seed=7202348
+2026-05-26 21:49:56,822 | INFO | Memory after prompt_id=p7191 seed=7202348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:49:56,822 | INFO | Done prompt_id=p7191 seed=7202348 runtime=14.73s generated=191 cfg_div_mean=0.080207 consistency=0.004521
+2026-05-26 21:49:56,937 | INFO | Running prompt_id=p7192 split=bottom seed=7203348
+2026-05-26 21:50:11,917 | INFO | Memory after prompt_id=p7192 seed=7203348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:50:11,917 | INFO | Done prompt_id=p7192 seed=7203348 runtime=14.68s generated=192 cfg_div_mean=0.076016 consistency=0.004204
+2026-05-26 21:50:12,058 | INFO | Running prompt_id=p7193 split=bottom seed=7204348
+2026-05-26 21:50:26,859 | INFO | Memory after prompt_id=p7193 seed=7204348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:50:26,859 | INFO | Done prompt_id=p7193 seed=7204348 runtime=14.44s generated=193 cfg_div_mean=0.083908 consistency=0.004535
+2026-05-26 21:50:26,996 | INFO | Running prompt_id=p7194 split=bottom seed=7205348
+2026-05-26 21:50:42,065 | INFO | Memory after prompt_id=p7194 seed=7205348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:50:42,065 | INFO | Done prompt_id=p7194 seed=7205348 runtime=14.64s generated=194 cfg_div_mean=0.082320 consistency=0.004555
+2026-05-26 21:50:42,178 | INFO | Running prompt_id=p7195 split=bottom seed=7206348
+2026-05-26 21:50:57,351 | INFO | Memory after prompt_id=p7195 seed=7206348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:50:57,351 | INFO | Done prompt_id=p7195 seed=7206348 runtime=14.80s generated=195 cfg_div_mean=0.085415 consistency=0.004235
+2026-05-26 21:50:57,487 | INFO | Running prompt_id=p7196 split=bottom seed=7207348
+2026-05-26 21:51:12,473 | INFO | Memory after prompt_id=p7196 seed=7207348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:51:12,473 | INFO | Done prompt_id=p7196 seed=7207348 runtime=14.56s generated=196 cfg_div_mean=0.085857 consistency=0.004453
+2026-05-26 21:51:12,607 | INFO | Running prompt_id=p7197 split=bottom seed=7208348
+2026-05-26 21:51:27,387 | INFO | Memory after prompt_id=p7197 seed=7208348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:51:27,387 | INFO | Done prompt_id=p7197 seed=7208348 runtime=14.47s generated=197 cfg_div_mean=0.064999 consistency=0.004736
+2026-05-26 21:51:27,501 | INFO | Running prompt_id=p7198 split=bottom seed=7209348
+2026-05-26 21:51:42,803 | INFO | Memory after prompt_id=p7198 seed=7209348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:51:42,804 | INFO | Done prompt_id=p7198 seed=7209348 runtime=14.82s generated=198 cfg_div_mean=0.070555 consistency=0.004596
+2026-05-26 21:51:43,166 | INFO | Running prompt_id=p7199 split=bottom seed=7210348
+2026-05-26 21:51:58,253 | INFO | Memory after prompt_id=p7199 seed=7210348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:51:58,254 | INFO | Done prompt_id=p7199 seed=7210348 runtime=14.79s generated=199 cfg_div_mean=0.085771 consistency=0.004267
+2026-05-26 21:51:58,389 | INFO | Running prompt_id=p7200 split=bottom seed=7211348
+2026-05-26 21:52:13,523 | INFO | Memory after prompt_id=p7200 seed=7211348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:52:13,523 | INFO | Done prompt_id=p7200 seed=7211348 runtime=14.65s generated=200 cfg_div_mean=0.066409 consistency=0.004556
+2026-05-26 21:52:13,637 | INFO | Running prompt_id=p7201 split=bottom seed=7212348
+2026-05-26 21:52:28,432 | INFO | Memory after prompt_id=p7201 seed=7212348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:52:28,432 | INFO | Done prompt_id=p7201 seed=7212348 runtime=14.41s generated=201 cfg_div_mean=0.071721 consistency=0.004528
+2026-05-26 21:52:28,579 | INFO | Running prompt_id=p7202 split=bottom seed=7213348
+2026-05-26 21:52:43,538 | INFO | Memory after prompt_id=p7202 seed=7213348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:52:43,539 | INFO | Done prompt_id=p7202 seed=7213348 runtime=14.43s generated=202 cfg_div_mean=0.069232 consistency=0.004601
+2026-05-26 21:52:43,792 | INFO | Running prompt_id=p7203 split=bottom seed=7214348
+2026-05-26 21:52:58,789 | INFO | Memory after prompt_id=p7203 seed=7214348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:52:58,789 | INFO | Done prompt_id=p7203 seed=7214348 runtime=14.49s generated=203 cfg_div_mean=0.070038 consistency=0.004585
+2026-05-26 21:52:58,903 | INFO | Running prompt_id=p7204 split=bottom seed=7215348
+2026-05-26 21:53:13,796 | INFO | Memory after prompt_id=p7204 seed=7215348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:53:13,796 | INFO | Done prompt_id=p7204 seed=7215348 runtime=14.45s generated=204 cfg_div_mean=0.061929 consistency=0.004636
+2026-05-26 21:53:13,939 | INFO | Running prompt_id=p7205 split=bottom seed=7216348
+2026-05-26 21:53:28,736 | INFO | Memory after prompt_id=p7205 seed=7216348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:53:28,736 | INFO | Done prompt_id=p7205 seed=7216348 runtime=14.46s generated=205 cfg_div_mean=0.074515 consistency=0.004490
+2026-05-26 21:53:28,864 | INFO | Running prompt_id=p7206 split=bottom seed=7217348
+2026-05-26 21:53:43,995 | INFO | Memory after prompt_id=p7206 seed=7217348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:53:43,995 | INFO | Done prompt_id=p7206 seed=7217348 runtime=14.75s generated=206 cfg_div_mean=0.065129 consistency=0.004441
+2026-05-26 21:53:44,109 | INFO | Running prompt_id=p7207 split=bottom seed=7218348
+2026-05-26 21:53:58,978 | INFO | Memory after prompt_id=p7207 seed=7218348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:53:58,978 | INFO | Done prompt_id=p7207 seed=7218348 runtime=14.43s generated=207 cfg_div_mean=0.064798 consistency=0.004546
+2026-05-26 21:53:59,121 | INFO | Running prompt_id=p7208 split=bottom seed=7219348
+2026-05-26 21:54:14,012 | INFO | Memory after prompt_id=p7208 seed=7219348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:54:14,012 | INFO | Done prompt_id=p7208 seed=7219348 runtime=14.47s generated=208 cfg_div_mean=0.092846 consistency=0.004615
+2026-05-26 21:54:14,138 | INFO | Running prompt_id=p7209 split=bottom seed=7220348
+2026-05-26 21:54:28,956 | INFO | Memory after prompt_id=p7209 seed=7220348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:54:28,956 | INFO | Done prompt_id=p7209 seed=7220348 runtime=14.42s generated=209 cfg_div_mean=0.075229 consistency=0.004268
+2026-05-26 21:54:29,070 | INFO | Running prompt_id=p7210 split=bottom seed=7221348
+2026-05-26 21:54:44,000 | INFO | Memory after prompt_id=p7210 seed=7221348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:54:44,000 | INFO | Done prompt_id=p7210 seed=7221348 runtime=14.45s generated=210 cfg_div_mean=0.059269 consistency=0.004435
+2026-05-26 21:54:44,144 | INFO | Running prompt_id=p7211 split=bottom seed=7222348
+2026-05-26 21:54:59,050 | INFO | Memory after prompt_id=p7211 seed=7222348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:54:59,051 | INFO | Done prompt_id=p7211 seed=7222348 runtime=14.48s generated=211 cfg_div_mean=0.099893 consistency=0.004297
+2026-05-26 21:54:59,173 | INFO | Running prompt_id=p7212 split=bottom seed=7223348
+2026-05-26 21:55:14,416 | INFO | Memory after prompt_id=p7212 seed=7223348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:55:14,416 | INFO | Done prompt_id=p7212 seed=7223348 runtime=14.72s generated=212 cfg_div_mean=0.073575 consistency=0.004460
+2026-05-26 21:55:14,528 | INFO | Running prompt_id=p7213 split=bottom seed=7224348
+2026-05-26 21:55:29,299 | INFO | Memory after prompt_id=p7213 seed=7224348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:55:29,299 | INFO | Done prompt_id=p7213 seed=7224348 runtime=14.47s generated=213 cfg_div_mean=0.078290 consistency=0.004633
+2026-05-26 21:55:29,441 | INFO | Running prompt_id=p7214 split=bottom seed=7225348
+2026-05-26 21:55:44,334 | INFO | Memory after prompt_id=p7214 seed=7225348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:55:44,334 | INFO | Done prompt_id=p7214 seed=7225348 runtime=14.62s generated=214 cfg_div_mean=0.103057 consistency=0.004141
+2026-05-26 21:55:44,449 | INFO | Running prompt_id=p7215 split=bottom seed=7226348
+2026-05-26 21:55:59,329 | INFO | Memory after prompt_id=p7215 seed=7226348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:55:59,329 | INFO | Done prompt_id=p7215 seed=7226348 runtime=14.43s generated=215 cfg_div_mean=0.078068 consistency=0.004437
+2026-05-26 21:55:59,443 | INFO | Running prompt_id=p7216 split=bottom seed=7227348
+2026-05-26 21:56:14,356 | INFO | Memory after prompt_id=p7216 seed=7227348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:56:14,356 | INFO | Done prompt_id=p7216 seed=7227348 runtime=14.44s generated=216 cfg_div_mean=0.093584 consistency=0.004375
+2026-05-26 21:56:14,499 | INFO | Running prompt_id=p7217 split=bottom seed=7228348
+2026-05-26 21:56:29,297 | INFO | Memory after prompt_id=p7217 seed=7228348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:56:29,298 | INFO | Done prompt_id=p7217 seed=7228348 runtime=14.44s generated=217 cfg_div_mean=0.077074 consistency=0.004642
+2026-05-26 21:56:29,410 | INFO | Running prompt_id=p7218 split=bottom seed=7229348
+2026-05-26 21:56:44,509 | INFO | Memory after prompt_id=p7218 seed=7229348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:56:44,509 | INFO | Done prompt_id=p7218 seed=7229348 runtime=14.64s generated=218 cfg_div_mean=0.080447 consistency=0.004305
+2026-05-26 21:56:44,622 | INFO | Running prompt_id=p7219 split=bottom seed=7230348
+2026-05-26 21:56:59,610 | INFO | Memory after prompt_id=p7219 seed=7230348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:56:59,610 | INFO | Done prompt_id=p7219 seed=7230348 runtime=14.44s generated=219 cfg_div_mean=0.071685 consistency=0.004542
+2026-05-26 21:56:59,757 | INFO | Running prompt_id=p7220 split=bottom seed=7231348
+2026-05-26 21:57:14,516 | INFO | Memory after prompt_id=p7220 seed=7231348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:57:14,516 | INFO | Done prompt_id=p7220 seed=7231348 runtime=14.54s generated=220 cfg_div_mean=0.072859 consistency=0.004333
+2026-05-26 21:57:14,628 | INFO | Running prompt_id=p7221 split=bottom seed=7232348
+2026-05-26 21:57:29,250 | INFO | Memory after prompt_id=p7221 seed=7232348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:57:29,250 | INFO | Done prompt_id=p7221 seed=7232348 runtime=14.41s generated=221 cfg_div_mean=0.067568 consistency=0.004063
+2026-05-26 21:57:29,363 | INFO | Running prompt_id=p7222 split=bottom seed=7233348
+2026-05-26 21:57:44,360 | INFO | Memory after prompt_id=p7222 seed=7233348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:57:44,360 | INFO | Done prompt_id=p7222 seed=7233348 runtime=14.68s generated=222 cfg_div_mean=0.094994 consistency=0.004259
+2026-05-26 21:57:44,503 | INFO | Running prompt_id=p7223 split=bottom seed=7234348
+2026-05-26 21:57:59,303 | INFO | Memory after prompt_id=p7223 seed=7234348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:57:59,303 | INFO | Done prompt_id=p7223 seed=7234348 runtime=14.43s generated=223 cfg_div_mean=0.087918 consistency=0.004249
+2026-05-26 21:57:59,416 | INFO | Running prompt_id=p7224 split=bottom seed=7235348
+2026-05-26 21:58:14,394 | INFO | Memory after prompt_id=p7224 seed=7235348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:58:14,394 | INFO | Done prompt_id=p7224 seed=7235348 runtime=14.48s generated=224 cfg_div_mean=0.087077 consistency=0.004619
+2026-05-26 21:58:14,507 | INFO | Running prompt_id=p7225 split=bottom seed=7236348
+2026-05-26 21:58:29,366 | INFO | Memory after prompt_id=p7225 seed=7236348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:58:29,366 | INFO | Done prompt_id=p7225 seed=7236348 runtime=14.44s generated=225 cfg_div_mean=0.053937 consistency=0.004738
+2026-05-26 21:58:29,509 | INFO | Running prompt_id=p7226 split=bottom seed=7237348
+2026-05-26 21:58:44,480 | INFO | Memory after prompt_id=p7226 seed=7237348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:58:44,480 | INFO | Done prompt_id=p7226 seed=7237348 runtime=14.57s generated=226 cfg_div_mean=0.071826 consistency=0.004450
+2026-05-26 21:58:44,593 | INFO | Running prompt_id=p7227 split=bottom seed=7238348
+2026-05-26 21:58:59,441 | INFO | Memory after prompt_id=p7227 seed=7238348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:58:59,441 | INFO | Done prompt_id=p7227 seed=7238348 runtime=14.44s generated=227 cfg_div_mean=0.074503 consistency=0.004508
+2026-05-26 21:58:59,555 | INFO | Running prompt_id=p7228 split=bottom seed=7239348
+2026-05-26 21:59:14,445 | INFO | Memory after prompt_id=p7228 seed=7239348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:59:14,445 | INFO | Done prompt_id=p7228 seed=7239348 runtime=14.42s generated=228 cfg_div_mean=0.060001 consistency=0.004679
+2026-05-26 21:59:14,593 | INFO | Running prompt_id=p7229 split=bottom seed=7240348
+2026-05-26 21:59:29,384 | INFO | Memory after prompt_id=p7229 seed=7240348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:59:29,384 | INFO | Done prompt_id=p7229 seed=7240348 runtime=14.42s generated=229 cfg_div_mean=0.095687 consistency=0.004266
+2026-05-26 21:59:29,499 | INFO | Running prompt_id=p7230 split=bottom seed=7241348
+2026-05-26 21:59:44,271 | INFO | Memory after prompt_id=p7230 seed=7241348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:59:44,271 | INFO | Done prompt_id=p7230 seed=7241348 runtime=14.42s generated=230 cfg_div_mean=0.072573 consistency=0.004229
+2026-05-26 21:59:44,384 | INFO | Running prompt_id=p7231 split=bottom seed=7242348
+2026-05-26 21:59:59,150 | INFO | Memory after prompt_id=p7231 seed=7242348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 21:59:59,150 | INFO | Done prompt_id=p7231 seed=7242348 runtime=14.43s generated=231 cfg_div_mean=0.076437 consistency=0.004497
+2026-05-26 21:59:59,293 | INFO | Running prompt_id=p7232 split=bottom seed=7243348
+2026-05-26 22:00:14,212 | INFO | Memory after prompt_id=p7232 seed=7243348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:00:14,213 | INFO | Done prompt_id=p7232 seed=7243348 runtime=14.43s generated=232 cfg_div_mean=0.078061 consistency=0.004556
+2026-05-26 22:00:14,325 | INFO | Running prompt_id=p7233 split=bottom seed=7244348
+2026-05-26 22:00:29,187 | INFO | Memory after prompt_id=p7233 seed=7244348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:00:29,188 | INFO | Done prompt_id=p7233 seed=7244348 runtime=14.43s generated=233 cfg_div_mean=0.085371 consistency=0.004372
+2026-05-26 22:00:29,303 | INFO | Running prompt_id=p7234 split=bottom seed=7245348
+2026-05-26 22:00:44,206 | INFO | Memory after prompt_id=p7234 seed=7245348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:00:44,206 | INFO | Done prompt_id=p7234 seed=7245348 runtime=14.65s generated=234 cfg_div_mean=0.060216 consistency=0.004456
+2026-05-26 22:00:44,351 | INFO | Running prompt_id=p7235 split=bottom seed=7246348
+2026-05-26 22:00:59,173 | INFO | Memory after prompt_id=p7235 seed=7246348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:00:59,173 | INFO | Done prompt_id=p7235 seed=7246348 runtime=14.43s generated=235 cfg_div_mean=0.075607 consistency=0.004714
+2026-05-26 22:00:59,287 | INFO | Running prompt_id=p7236 split=bottom seed=7247348
+2026-05-26 22:01:14,305 | INFO | Memory after prompt_id=p7236 seed=7247348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:01:14,305 | INFO | Done prompt_id=p7236 seed=7247348 runtime=14.43s generated=236 cfg_div_mean=0.079960 consistency=0.004430
+2026-05-26 22:01:14,418 | INFO | Running prompt_id=p7237 split=bottom seed=7248348
+2026-05-26 22:01:29,225 | INFO | Memory after prompt_id=p7237 seed=7248348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:01:29,225 | INFO | Done prompt_id=p7237 seed=7248348 runtime=14.43s generated=237 cfg_div_mean=0.067591 consistency=0.004367
+2026-05-26 22:01:29,368 | INFO | Running prompt_id=p7238 split=bottom seed=7249348
+2026-05-26 22:01:44,367 | INFO | Memory after prompt_id=p7238 seed=7249348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:01:44,367 | INFO | Done prompt_id=p7238 seed=7249348 runtime=14.60s generated=238 cfg_div_mean=0.047586 consistency=0.004847
+2026-05-26 22:01:44,480 | INFO | Running prompt_id=p7239 split=bottom seed=7250348
+2026-05-26 22:01:59,249 | INFO | Memory after prompt_id=p7239 seed=7250348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:01:59,250 | INFO | Done prompt_id=p7239 seed=7250348 runtime=14.43s generated=239 cfg_div_mean=0.079163 consistency=0.004307
+2026-05-26 22:01:59,362 | INFO | Running prompt_id=p7240 split=bottom seed=7251348
+2026-05-26 22:02:14,221 | INFO | Memory after prompt_id=p7240 seed=7251348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:02:14,221 | INFO | Done prompt_id=p7240 seed=7251348 runtime=14.44s generated=240 cfg_div_mean=0.068856 consistency=0.004767
+2026-05-26 22:02:14,366 | INFO | Running prompt_id=p7241 split=bottom seed=7252348
+2026-05-26 22:02:29,257 | INFO | Memory after prompt_id=p7241 seed=7252348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:02:29,257 | INFO | Done prompt_id=p7241 seed=7252348 runtime=14.42s generated=241 cfg_div_mean=0.091166 consistency=0.004490
+2026-05-26 22:02:29,371 | INFO | Running prompt_id=p7242 split=bottom seed=7253348
+2026-05-26 22:02:44,178 | INFO | Memory after prompt_id=p7242 seed=7253348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:02:44,178 | INFO | Done prompt_id=p7242 seed=7253348 runtime=14.56s generated=242 cfg_div_mean=0.073172 consistency=0.004054
+2026-05-26 22:02:44,291 | INFO | Running prompt_id=p7243 split=bottom seed=7254348
+2026-05-26 22:02:59,001 | INFO | Memory after prompt_id=p7243 seed=7254348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:02:59,001 | INFO | Done prompt_id=p7243 seed=7254348 runtime=14.45s generated=243 cfg_div_mean=0.086588 consistency=0.004485
+2026-05-26 22:02:59,144 | INFO | Running prompt_id=p7244 split=bottom seed=7255348
+2026-05-26 22:03:14,196 | INFO | Memory after prompt_id=p7244 seed=7255348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:03:14,197 | INFO | Done prompt_id=p7244 seed=7255348 runtime=14.74s generated=244 cfg_div_mean=0.078375 consistency=0.004616
+2026-05-26 22:03:14,309 | INFO | Running prompt_id=p7245 split=bottom seed=7256348
+2026-05-26 22:03:29,132 | INFO | Memory after prompt_id=p7245 seed=7256348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:03:29,132 | INFO | Done prompt_id=p7245 seed=7256348 runtime=14.44s generated=245 cfg_div_mean=0.062379 consistency=0.004677
+2026-05-26 22:03:29,247 | INFO | Running prompt_id=p7246 split=bottom seed=7257348
+2026-05-26 22:03:44,406 | INFO | Memory after prompt_id=p7246 seed=7257348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:03:44,406 | INFO | Done prompt_id=p7246 seed=7257348 runtime=14.70s generated=246 cfg_div_mean=0.051377 consistency=0.004311
+2026-05-26 22:03:44,551 | INFO | Running prompt_id=p7247 split=bottom seed=7258348
+2026-05-26 22:03:59,333 | INFO | Memory after prompt_id=p7247 seed=7258348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:03:59,333 | INFO | Done prompt_id=p7247 seed=7258348 runtime=14.40s generated=247 cfg_div_mean=0.068970 consistency=0.004449
+2026-05-26 22:03:59,446 | INFO | Running prompt_id=p7248 split=bottom seed=7259348
+2026-05-26 22:04:14,347 | INFO | Memory after prompt_id=p7248 seed=7259348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:04:14,348 | INFO | Done prompt_id=p7248 seed=7259348 runtime=14.42s generated=248 cfg_div_mean=0.097129 consistency=0.004382
+2026-05-26 22:04:14,463 | INFO | Running prompt_id=p7249 split=bottom seed=7260348
+2026-05-26 22:04:29,398 | INFO | Memory after prompt_id=p7249 seed=7260348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:04:29,398 | INFO | Done prompt_id=p7249 seed=7260348 runtime=14.43s generated=249 cfg_div_mean=0.081894 consistency=0.004427
+2026-05-26 22:04:29,540 | INFO | Running prompt_id=p7250 split=bottom seed=7261348
+2026-05-26 22:04:44,386 | INFO | Memory after prompt_id=p7250 seed=7261348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:04:44,386 | INFO | Done prompt_id=p7250 seed=7261348 runtime=14.44s generated=250 cfg_div_mean=0.095219 consistency=0.004327
+2026-05-26 22:04:44,501 | INFO | Running prompt_id=p7251 split=bottom seed=7262348
+2026-05-26 22:04:59,364 | INFO | Memory after prompt_id=p7251 seed=7262348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:04:59,364 | INFO | Done prompt_id=p7251 seed=7262348 runtime=14.44s generated=251 cfg_div_mean=0.066577 consistency=0.004376
+2026-05-26 22:04:59,479 | INFO | Running prompt_id=p7252 split=bottom seed=7263348
+2026-05-26 22:05:14,405 | INFO | Memory after prompt_id=p7252 seed=7263348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:05:14,405 | INFO | Done prompt_id=p7252 seed=7263348 runtime=14.45s generated=252 cfg_div_mean=0.078315 consistency=0.004591
+2026-05-26 22:05:14,547 | INFO | Running prompt_id=p7253 split=bottom seed=7264348
+2026-05-26 22:05:29,409 | INFO | Memory after prompt_id=p7253 seed=7264348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:05:29,409 | INFO | Done prompt_id=p7253 seed=7264348 runtime=14.45s generated=253 cfg_div_mean=0.096820 consistency=0.004230
+2026-05-26 22:05:29,522 | INFO | Running prompt_id=p7254 split=bottom seed=7265348
+2026-05-26 22:05:44,420 | INFO | Memory after prompt_id=p7254 seed=7265348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:05:44,420 | INFO | Done prompt_id=p7254 seed=7265348 runtime=14.42s generated=254 cfg_div_mean=0.066224 consistency=0.004654
+2026-05-26 22:05:44,533 | INFO | Running prompt_id=p7255 split=bottom seed=7266348
+2026-05-26 22:05:59,345 | INFO | Memory after prompt_id=p7255 seed=7266348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:05:59,345 | INFO | Done prompt_id=p7255 seed=7266348 runtime=14.43s generated=255 cfg_div_mean=0.084831 consistency=0.004307
+2026-05-26 22:05:59,489 | INFO | Running prompt_id=p7256 split=bottom seed=7267348
+2026-05-26 22:06:14,382 | INFO | Memory after prompt_id=p7256 seed=7267348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:06:14,382 | INFO | Done prompt_id=p7256 seed=7267348 runtime=14.42s generated=256 cfg_div_mean=0.061062 consistency=0.004386
+2026-05-26 22:06:14,495 | INFO | Running prompt_id=p7257 split=bottom seed=7268348
+2026-05-26 22:06:29,430 | INFO | Memory after prompt_id=p7257 seed=7268348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:06:29,431 | INFO | Done prompt_id=p7257 seed=7268348 runtime=14.44s generated=257 cfg_div_mean=0.109689 consistency=0.004218
+2026-05-26 22:06:29,544 | INFO | Running prompt_id=p7258 split=bottom seed=7269348
+2026-05-26 22:06:44,534 | INFO | Memory after prompt_id=p7258 seed=7269348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:06:44,534 | INFO | Done prompt_id=p7258 seed=7269348 runtime=14.46s generated=258 cfg_div_mean=0.083179 consistency=0.004436
+2026-05-26 22:06:44,677 | INFO | Running prompt_id=p7259 split=bottom seed=7270348
+2026-05-26 22:06:59,541 | INFO | Memory after prompt_id=p7259 seed=7270348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:06:59,542 | INFO | Done prompt_id=p7259 seed=7270348 runtime=14.43s generated=259 cfg_div_mean=0.099053 consistency=0.004616
+2026-05-26 22:06:59,654 | INFO | Running prompt_id=p7260 split=bottom seed=7271348
+2026-05-26 22:07:14,883 | INFO | Memory after prompt_id=p7260 seed=7271348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:07:14,883 | INFO | Done prompt_id=p7260 seed=7271348 runtime=14.77s generated=260 cfg_div_mean=0.089306 consistency=0.004387
+2026-05-26 22:07:14,997 | INFO | Running prompt_id=p7261 split=bottom seed=7272348
+2026-05-26 22:07:29,897 | INFO | Memory after prompt_id=p7261 seed=7272348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:07:29,897 | INFO | Done prompt_id=p7261 seed=7272348 runtime=14.43s generated=261 cfg_div_mean=0.069594 consistency=0.004629
+2026-05-26 22:07:30,042 | INFO | Running prompt_id=p7262 split=bottom seed=7273348
+2026-05-26 22:07:44,786 | INFO | Memory after prompt_id=p7262 seed=7273348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:07:44,786 | INFO | Done prompt_id=p7262 seed=7273348 runtime=14.43s generated=262 cfg_div_mean=0.076357 consistency=0.004865
+2026-05-26 22:07:44,899 | INFO | Running prompt_id=p7263 split=bottom seed=7274348
+2026-05-26 22:07:59,636 | INFO | Memory after prompt_id=p7263 seed=7274348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:07:59,636 | INFO | Done prompt_id=p7263 seed=7274348 runtime=14.45s generated=263 cfg_div_mean=0.074212 consistency=0.004401
+2026-05-26 22:07:59,749 | INFO | Running prompt_id=p7264 split=bottom seed=7275348
+2026-05-26 22:08:14,735 | INFO | Memory after prompt_id=p7264 seed=7275348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:08:14,735 | INFO | Done prompt_id=p7264 seed=7275348 runtime=14.57s generated=264 cfg_div_mean=0.066140 consistency=0.004379
+2026-05-26 22:08:14,872 | INFO | Running prompt_id=p7265 split=bottom seed=7276348
+2026-05-26 22:08:29,540 | INFO | Memory after prompt_id=p7265 seed=7276348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:08:29,540 | INFO | Done prompt_id=p7265 seed=7276348 runtime=14.43s generated=265 cfg_div_mean=0.064457 consistency=0.004244
+2026-05-26 22:08:29,659 | INFO | Running prompt_id=p7266 split=bottom seed=7277348
+2026-05-26 22:08:44,707 | INFO | Memory after prompt_id=p7266 seed=7277348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:08:44,708 | INFO | Done prompt_id=p7266 seed=7277348 runtime=14.79s generated=266 cfg_div_mean=0.071920 consistency=0.004383
+2026-05-26 22:08:44,821 | INFO | Running prompt_id=p7267 split=bottom seed=7278348
+2026-05-26 22:08:59,639 | INFO | Memory after prompt_id=p7267 seed=7278348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:08:59,640 | INFO | Done prompt_id=p7267 seed=7278348 runtime=14.44s generated=267 cfg_div_mean=0.068571 consistency=0.004638
+2026-05-26 22:08:59,778 | INFO | Running prompt_id=p7268 split=bottom seed=7279348
+2026-05-26 22:09:14,809 | INFO | Memory after prompt_id=p7268 seed=7279348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:09:14,810 | INFO | Done prompt_id=p7268 seed=7279348 runtime=14.55s generated=268 cfg_div_mean=0.072694 consistency=0.004355
+2026-05-26 22:09:14,929 | INFO | Running prompt_id=p7269 split=bottom seed=7280348
+2026-05-26 22:09:29,731 | INFO | Memory after prompt_id=p7269 seed=7280348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:09:29,731 | INFO | Done prompt_id=p7269 seed=7280348 runtime=14.41s generated=269 cfg_div_mean=0.098286 consistency=0.004137
+2026-05-26 22:09:29,845 | INFO | Running prompt_id=p7270 split=bottom seed=7281348
+2026-05-26 22:09:44,885 | INFO | Memory after prompt_id=p7270 seed=7281348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:09:44,885 | INFO | Done prompt_id=p7270 seed=7281348 runtime=14.74s generated=270 cfg_div_mean=0.094635 consistency=0.003977
+2026-05-26 22:09:45,023 | INFO | Running prompt_id=p7271 split=bottom seed=7282348
+2026-05-26 22:09:59,959 | INFO | Memory after prompt_id=p7271 seed=7282348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:09:59,959 | INFO | Done prompt_id=p7271 seed=7282348 runtime=14.42s generated=271 cfg_div_mean=0.112918 consistency=0.004094
+2026-05-26 22:10:00,077 | INFO | Running prompt_id=p7272 split=bottom seed=7283348
+2026-05-26 22:10:15,074 | INFO | Memory after prompt_id=p7272 seed=7283348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:10:15,074 | INFO | Done prompt_id=p7272 seed=7283348 runtime=14.42s generated=272 cfg_div_mean=0.075516 consistency=0.004390
+2026-05-26 22:10:15,188 | INFO | Running prompt_id=p7273 split=bottom seed=7284348
+2026-05-26 22:10:30,092 | INFO | Memory after prompt_id=p7273 seed=7284348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:10:30,092 | INFO | Done prompt_id=p7273 seed=7284348 runtime=14.42s generated=273 cfg_div_mean=0.088823 consistency=0.004357
+2026-05-26 22:10:30,236 | INFO | Running prompt_id=p7274 split=bottom seed=7285348
+2026-05-26 22:10:45,586 | INFO | Memory after prompt_id=p7274 seed=7285348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:10:45,586 | INFO | Done prompt_id=p7274 seed=7285348 runtime=14.90s generated=274 cfg_div_mean=0.076079 consistency=0.004834
+2026-05-26 22:10:45,705 | INFO | Running prompt_id=p7275 split=bottom seed=7286348
+2026-05-26 22:11:00,621 | INFO | Memory after prompt_id=p7275 seed=7286348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:11:00,621 | INFO | Done prompt_id=p7275 seed=7286348 runtime=14.47s generated=275 cfg_div_mean=0.078170 consistency=0.004489
+2026-05-26 22:11:00,735 | INFO | Running prompt_id=p7276 split=bottom seed=7287348
+2026-05-26 22:11:15,619 | INFO | Memory after prompt_id=p7276 seed=7287348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:11:15,619 | INFO | Done prompt_id=p7276 seed=7287348 runtime=14.52s generated=276 cfg_div_mean=0.061733 consistency=0.004386
+2026-05-26 22:11:15,762 | INFO | Running prompt_id=p7277 split=bottom seed=7288348
+2026-05-26 22:11:30,612 | INFO | Memory after prompt_id=p7277 seed=7288348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:11:30,612 | INFO | Done prompt_id=p7277 seed=7288348 runtime=14.42s generated=277 cfg_div_mean=0.090073 consistency=0.004601
+2026-05-26 22:11:30,725 | INFO | Running prompt_id=p7278 split=bottom seed=7289348
+2026-05-26 22:11:45,676 | INFO | Memory after prompt_id=p7278 seed=7289348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:11:45,676 | INFO | Done prompt_id=p7278 seed=7289348 runtime=14.54s generated=278 cfg_div_mean=0.107061 consistency=0.004150
+2026-05-26 22:11:45,794 | INFO | Running prompt_id=p7279 split=bottom seed=7290348
+2026-05-26 22:12:00,661 | INFO | Memory after prompt_id=p7279 seed=7290348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:12:00,661 | INFO | Done prompt_id=p7279 seed=7290348 runtime=14.45s generated=279 cfg_div_mean=0.062795 consistency=0.004787
+2026-05-26 22:12:00,803 | INFO | Running prompt_id=p7280 split=bottom seed=7291348
+2026-05-26 22:12:15,665 | INFO | Memory after prompt_id=p7280 seed=7291348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:12:15,665 | INFO | Done prompt_id=p7280 seed=7291348 runtime=14.45s generated=280 cfg_div_mean=0.070519 consistency=0.004748
+2026-05-26 22:12:15,781 | INFO | Running prompt_id=p7281 split=bottom seed=7292348
+2026-05-26 22:12:30,551 | INFO | Memory after prompt_id=p7281 seed=7292348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:12:30,551 | INFO | Done prompt_id=p7281 seed=7292348 runtime=14.41s generated=281 cfg_div_mean=0.089991 consistency=0.004473
+2026-05-26 22:12:30,673 | INFO | Running prompt_id=p7282 split=bottom seed=7293348
+2026-05-26 22:12:46,027 | INFO | Memory after prompt_id=p7282 seed=7293348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:12:46,027 | INFO | Done prompt_id=p7282 seed=7293348 runtime=14.90s generated=282 cfg_div_mean=0.059029 consistency=0.004602
+2026-05-26 22:12:46,171 | INFO | Running prompt_id=p7283 split=bottom seed=7294348
+2026-05-26 22:13:01,186 | INFO | Memory after prompt_id=p7283 seed=7294348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:13:01,186 | INFO | Done prompt_id=p7283 seed=7294348 runtime=14.55s generated=283 cfg_div_mean=0.054599 consistency=0.004709
+2026-05-26 22:13:01,616 | INFO | Running prompt_id=p7284 split=bottom seed=7295348
+2026-05-26 22:13:16,999 | INFO | Memory after prompt_id=p7284 seed=7295348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:13:16,999 | INFO | Done prompt_id=p7284 seed=7295348 runtime=14.93s generated=284 cfg_div_mean=0.076402 consistency=0.004581
+2026-05-26 22:13:17,125 | INFO | Running prompt_id=p7285 split=bottom seed=7296348
+2026-05-26 22:13:32,029 | INFO | Memory after prompt_id=p7285 seed=7296348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:13:32,029 | INFO | Done prompt_id=p7285 seed=7296348 runtime=14.59s generated=285 cfg_div_mean=0.076718 consistency=0.004558
+2026-05-26 22:13:32,328 | INFO | Running prompt_id=p7286 split=bottom seed=7297348
+2026-05-26 22:13:47,450 | INFO | Memory after prompt_id=p7286 seed=7297348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:13:47,450 | INFO | Done prompt_id=p7286 seed=7297348 runtime=14.73s generated=286 cfg_div_mean=0.084523 consistency=0.004403
+2026-05-26 22:13:47,568 | INFO | Running prompt_id=p7287 split=bottom seed=7298348
+2026-05-26 22:14:02,477 | INFO | Memory after prompt_id=p7287 seed=7298348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:14:02,477 | INFO | Done prompt_id=p7287 seed=7298348 runtime=14.47s generated=287 cfg_div_mean=0.073764 consistency=0.004669
+2026-05-26 22:14:02,590 | INFO | Running prompt_id=p7288 split=bottom seed=7299348
+2026-05-26 22:14:17,449 | INFO | Memory after prompt_id=p7288 seed=7299348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:14:17,449 | INFO | Done prompt_id=p7288 seed=7299348 runtime=14.44s generated=288 cfg_div_mean=0.085303 consistency=0.004290
+2026-05-26 22:14:17,563 | INFO | Running prompt_id=p7289 split=bottom seed=7300348
+2026-05-26 22:14:32,496 | INFO | Memory after prompt_id=p7289 seed=7300348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:14:32,496 | INFO | Done prompt_id=p7289 seed=7300348 runtime=14.47s generated=289 cfg_div_mean=0.076224 consistency=0.004613
+2026-05-26 22:14:32,637 | INFO | Running prompt_id=p7290 split=bottom seed=7301348
+2026-05-26 22:14:47,485 | INFO | Memory after prompt_id=p7290 seed=7301348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:14:47,485 | INFO | Done prompt_id=p7290 seed=7301348 runtime=14.44s generated=290 cfg_div_mean=0.084028 consistency=0.004391
+2026-05-26 22:14:47,597 | INFO | Running prompt_id=p7291 split=bottom seed=7302348
+2026-05-26 22:15:02,538 | INFO | Memory after prompt_id=p7291 seed=7302348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:15:02,538 | INFO | Done prompt_id=p7291 seed=7302348 runtime=14.44s generated=291 cfg_div_mean=0.066938 consistency=0.004556
+2026-05-26 22:15:02,651 | INFO | Running prompt_id=p7292 split=bottom seed=7303348
+2026-05-26 22:15:17,486 | INFO | Memory after prompt_id=p7292 seed=7303348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:15:17,486 | INFO | Done prompt_id=p7292 seed=7303348 runtime=14.43s generated=292 cfg_div_mean=0.046501 consistency=0.005062
+2026-05-26 22:15:17,637 | INFO | Running prompt_id=p7293 split=bottom seed=7304348
+2026-05-26 22:15:32,563 | INFO | Memory after prompt_id=p7293 seed=7304348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:15:32,564 | INFO | Done prompt_id=p7293 seed=7304348 runtime=14.47s generated=293 cfg_div_mean=0.070128 consistency=0.004471
+2026-05-26 22:15:32,676 | INFO | Running prompt_id=p7294 split=bottom seed=7305348
+2026-05-26 22:15:47,912 | INFO | Memory after prompt_id=p7294 seed=7305348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:15:47,912 | INFO | Done prompt_id=p7294 seed=7305348 runtime=14.76s generated=294 cfg_div_mean=0.089273 consistency=0.004357
+2026-05-26 22:15:48,026 | INFO | Running prompt_id=p7295 split=bottom seed=7306348
+2026-05-26 22:16:02,921 | INFO | Memory after prompt_id=p7295 seed=7306348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:16:02,921 | INFO | Done prompt_id=p7295 seed=7306348 runtime=14.42s generated=295 cfg_div_mean=0.071633 consistency=0.004743
+2026-05-26 22:16:03,063 | INFO | Running prompt_id=p7296 split=bottom seed=7307348
+2026-05-26 22:16:17,918 | INFO | Memory after prompt_id=p7296 seed=7307348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:16:17,918 | INFO | Done prompt_id=p7296 seed=7307348 runtime=14.43s generated=296 cfg_div_mean=0.058345 consistency=0.004498
+2026-05-26 22:16:18,035 | INFO | Running prompt_id=p7297 split=bottom seed=7308348
+2026-05-26 22:16:33,029 | INFO | Memory after prompt_id=p7297 seed=7308348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:16:33,029 | INFO | Done prompt_id=p7297 seed=7308348 runtime=14.47s generated=297 cfg_div_mean=0.072081 consistency=0.004495
+2026-05-26 22:16:33,142 | INFO | Running prompt_id=p7298 split=bottom seed=7309348
+2026-05-26 22:16:48,041 | INFO | Memory after prompt_id=p7298 seed=7309348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:16:48,041 | INFO | Done prompt_id=p7298 seed=7309348 runtime=14.45s generated=298 cfg_div_mean=0.088030 consistency=0.004156
+2026-05-26 22:16:48,187 | INFO | Running prompt_id=p7299 split=bottom seed=7310348
+2026-05-26 22:17:02,987 | INFO | Memory after prompt_id=p7299 seed=7310348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:17:02,987 | INFO | Done prompt_id=p7299 seed=7310348 runtime=14.45s generated=299 cfg_div_mean=0.086876 consistency=0.004521
+2026-05-26 22:17:03,102 | INFO | Running prompt_id=p7300 split=bottom seed=7311348
+2026-05-26 22:17:17,946 | INFO | Memory after prompt_id=p7300 seed=7311348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:17:17,946 | INFO | Done prompt_id=p7300 seed=7311348 runtime=14.43s generated=300 cfg_div_mean=0.057000 consistency=0.004783
+2026-05-26 22:17:18,097 | INFO | Running prompt_id=p7301 split=bottom seed=7312348
+2026-05-26 22:17:32,881 | INFO | Memory after prompt_id=p7301 seed=7312348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:17:32,881 | INFO | Done prompt_id=p7301 seed=7312348 runtime=14.42s generated=301 cfg_div_mean=0.074863 consistency=0.004456
+2026-05-26 22:17:33,026 | INFO | Running prompt_id=p7302 split=bottom seed=7313348
+2026-05-26 22:17:47,884 | INFO | Memory after prompt_id=p7302 seed=7313348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:17:47,884 | INFO | Done prompt_id=p7302 seed=7313348 runtime=14.48s generated=302 cfg_div_mean=0.051086 consistency=0.004333
+2026-05-26 22:17:48,000 | INFO | Running prompt_id=p7303 split=bottom seed=7314348
+2026-05-26 22:18:02,865 | INFO | Memory after prompt_id=p7303 seed=7314348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:18:02,865 | INFO | Done prompt_id=p7303 seed=7314348 runtime=14.49s generated=303 cfg_div_mean=0.066397 consistency=0.004753
+2026-05-26 22:18:02,986 | INFO | Running prompt_id=p7304 split=bottom seed=7315348
+2026-05-26 22:18:17,988 | INFO | Memory after prompt_id=p7304 seed=7315348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:18:17,988 | INFO | Done prompt_id=p7304 seed=7315348 runtime=14.45s generated=304 cfg_div_mean=0.071458 consistency=0.004471
+2026-05-26 22:18:18,141 | INFO | Running prompt_id=p7305 split=bottom seed=7316348
+2026-05-26 22:18:32,889 | INFO | Memory after prompt_id=p7305 seed=7316348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:18:32,889 | INFO | Done prompt_id=p7305 seed=7316348 runtime=14.48s generated=305 cfg_div_mean=0.055559 consistency=0.004569
+2026-05-26 22:18:33,002 | INFO | Running prompt_id=p7306 split=bottom seed=7317348
+2026-05-26 22:18:47,945 | INFO | Memory after prompt_id=p7306 seed=7317348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:18:47,945 | INFO | Done prompt_id=p7306 seed=7317348 runtime=14.48s generated=306 cfg_div_mean=0.073579 consistency=0.004404
+2026-05-26 22:18:48,058 | INFO | Running prompt_id=p7307 split=bottom seed=7318348
+2026-05-26 22:19:03,083 | INFO | Memory after prompt_id=p7307 seed=7318348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:19:03,083 | INFO | Done prompt_id=p7307 seed=7318348 runtime=14.64s generated=307 cfg_div_mean=0.062845 consistency=0.004360
+2026-05-26 22:19:03,237 | INFO | Running prompt_id=p7308 split=bottom seed=7319348
+2026-05-26 22:19:18,056 | INFO | Memory after prompt_id=p7308 seed=7319348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:19:18,056 | INFO | Done prompt_id=p7308 seed=7319348 runtime=14.42s generated=308 cfg_div_mean=0.071107 consistency=0.004924
+2026-05-26 22:19:18,277 | INFO | Running prompt_id=p7309 split=bottom seed=7320348
+2026-05-26 22:19:33,149 | INFO | Memory after prompt_id=p7309 seed=7320348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:19:33,149 | INFO | Done prompt_id=p7309 seed=7320348 runtime=14.44s generated=309 cfg_div_mean=0.064726 consistency=0.004667
+2026-05-26 22:19:33,264 | INFO | Running prompt_id=p7310 split=bottom seed=7321348
+2026-05-26 22:19:48,486 | INFO | Memory after prompt_id=p7310 seed=7321348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:19:48,486 | INFO | Done prompt_id=p7310 seed=7321348 runtime=14.87s generated=310 cfg_div_mean=0.057833 consistency=0.004586
+2026-05-26 22:19:48,628 | INFO | Running prompt_id=p7311 split=bottom seed=7322348
+2026-05-26 22:20:03,561 | INFO | Memory after prompt_id=p7311 seed=7322348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:20:03,561 | INFO | Done prompt_id=p7311 seed=7322348 runtime=14.43s generated=311 cfg_div_mean=0.080298 consistency=0.004655
+2026-05-26 22:20:03,673 | INFO | Running prompt_id=p7312 split=bottom seed=7323348
+2026-05-26 22:20:18,482 | INFO | Memory after prompt_id=p7312 seed=7323348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:20:18,482 | INFO | Done prompt_id=p7312 seed=7323348 runtime=14.45s generated=312 cfg_div_mean=0.073522 consistency=0.004829
+2026-05-26 22:20:18,594 | INFO | Running prompt_id=p7313 split=bottom seed=7324348
+2026-05-26 22:20:33,172 | INFO | Memory after prompt_id=p7313 seed=7324348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:20:33,173 | INFO | Done prompt_id=p7313 seed=7324348 runtime=14.40s generated=313 cfg_div_mean=0.060579 consistency=0.004390
+2026-05-26 22:20:33,316 | INFO | Running prompt_id=p7314 split=bottom seed=7325348
+2026-05-26 22:20:48,496 | INFO | Memory after prompt_id=p7314 seed=7325348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:20:48,496 | INFO | Done prompt_id=p7314 seed=7325348 runtime=14.76s generated=314 cfg_div_mean=0.076362 consistency=0.004574
+2026-05-26 22:20:48,626 | INFO | Running prompt_id=p7315 split=bottom seed=7326348
+2026-05-26 22:21:03,603 | INFO | Memory after prompt_id=p7315 seed=7326348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:21:03,604 | INFO | Done prompt_id=p7315 seed=7326348 runtime=14.46s generated=315 cfg_div_mean=0.080524 consistency=0.004281
+2026-05-26 22:21:03,716 | INFO | Running prompt_id=p7316 split=bottom seed=7327348
+2026-05-26 22:21:18,642 | INFO | Memory after prompt_id=p7316 seed=7327348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:21:18,642 | INFO | Done prompt_id=p7316 seed=7327348 runtime=14.44s generated=316 cfg_div_mean=0.086550 consistency=0.004586
+2026-05-26 22:21:18,785 | INFO | Running prompt_id=p7317 split=bottom seed=7328348
+2026-05-26 22:21:33,547 | INFO | Memory after prompt_id=p7317 seed=7328348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:21:33,547 | INFO | Done prompt_id=p7317 seed=7328348 runtime=14.48s generated=317 cfg_div_mean=0.089843 consistency=0.004227
+2026-05-26 22:21:33,660 | INFO | Running prompt_id=p7318 split=bottom seed=7329348
+2026-05-26 22:21:48,474 | INFO | Memory after prompt_id=p7318 seed=7329348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:21:48,474 | INFO | Done prompt_id=p7318 seed=7329348 runtime=14.46s generated=318 cfg_div_mean=0.081449 consistency=0.004371
+2026-05-26 22:21:48,588 | INFO | Running prompt_id=p7319 split=bottom seed=7330348
+2026-05-26 22:22:03,508 | INFO | Memory after prompt_id=p7319 seed=7330348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:22:03,509 | INFO | Done prompt_id=p7319 seed=7330348 runtime=14.44s generated=319 cfg_div_mean=0.098959 consistency=0.004546
+2026-05-26 22:22:03,651 | INFO | Running prompt_id=p7320 split=bottom seed=7331348
+2026-05-26 22:22:18,577 | INFO | Memory after prompt_id=p7320 seed=7331348 | host_rss=4.63 GB | gpu_alloc=27.98 GB
+2026-05-26 22:22:18,577 | INFO | Done prompt_id=p7320 seed=7331348 runtime=14.45s generated=320 cfg_div_mean=0.098777 consistency=0.004277
+2026-05-26 22:22:18,689 | INFO | Batch run complete. Generated 320 new images.

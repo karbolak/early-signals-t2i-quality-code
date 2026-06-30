@@ -1,0 +1,11 @@
+{
+  "chunk_dir": "/scratch/s5470161/bscthesis/results/sd35_7320_4thseed/chunk_7",
+  "source_manifest": "/scratch/s5470161/bscthesis/results/sd35_7320_4thseed/chunk_7/generation_manifest_with_quality.csv",
+  "rows": 320,
+  "targets": [
+    "imagereward"
+  ],
+  "non_null_clip_score": 320,
+  "non_null_hpsv2_score": 320,
+  "non_null_imagereward_score": 320
+}

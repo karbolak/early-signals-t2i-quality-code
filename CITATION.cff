@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Implementation Code for Early Signals Predict Quality in Image Generation"
+message: "If you use this code, please cite the thesis and this repository."
+type: software
+authors:
+  - family-names: Karbowski
+    given-names: Kajetan
+year: 2026
+license: MIT
+repository-code: "https://github.com/karbolak/early-signals-t2i-quality-code"

@@ -1,0 +1,24 @@
+name: early-signals-core
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - tqdm
+  - psutil
+  - pip:
+      - datasets
+      - torch
+      - transformers
+      - diffusers
+      - accelerate
+      - open_clip_torch
+      - hpsv2

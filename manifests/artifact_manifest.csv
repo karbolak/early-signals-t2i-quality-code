@@ -1,0 +1,4 @@
+path,required,description
+artifacts/final_dataset/analysis_input_all_quality.csv,yes,"Final scored analysis table used for the thesis analyses; includes prompts, seeds, quality scores, and trajectory-derived features."
+artifacts/final_dataset/analysis_input_all_quality.csv.gz,no,"Compressed duplicate of the final scored analysis table for convenient download."
+artifacts/final_dataset/analysis_input_all_quality.csv.gz.sha256,no,"SHA-256 checksum for the compressed final dataset."

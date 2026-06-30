@@ -1,0 +1,24 @@
+# Convenience alias for the core environment.
+# ImageReward was run in a separate environment; see envs/imagereward.yml.
+name: early-signals-core
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - pip:
+      - torch
+      - torchvision
+      - diffusers
+      - transformers
+      - accelerate
+      - open-clip-torch
+      - hpsv2

@@ -1,0 +1,16 @@
+name: early-signals-imagereward
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - pillow
+  - tqdm
+  - pip:
+      - torch
+      - transformers
+      - ImageReward

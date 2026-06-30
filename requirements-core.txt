@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pillow
+tqdm
+psutil
+datasets
+torch
+transformers
+diffusers
+accelerate
+open_clip_torch
+hpsv2
